@@ -986,7 +986,7 @@
         <div class="znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left "> 
          <div class="znColumnElement-innerContent"> 
           <div class="kl-title-block clearfix tbk--text- tbk--left text-left tbk-symbol--border2  tbk-icon-pos--after-subtitle eluid3f9c1fff  no_animation">
-           <h3 class="tbk__title" itemprop="headline"><span class="tbk__border-helper">核心业务</span></h3>
+           <h3 class="tbk__title" itemprop="headline" style="height: 60px;"><span class="tbk__border-helper">核心业务</span></h3>
            <h4 class="tbk__subtitle" itemprop="alternativeHeadline">Core Business</h4>
            <span class="tbk__symbol "><span></span></span>
           </div>
@@ -1054,7 +1054,7 @@
               <div class="znColumnElement-innerContent"> 
                <div class="media-container eluid1f7f0e3f  no_animation media-container--type- kl-overlay-none znBoxShadow-6  znParallax-object" data-zn-parallax-obj="{";scene";:{";triggerHook";:";onEnter";,";triggerElement";:";.eluid1f7f0e3f";,";duration";:";force_full";},";tween";:{";speed";:0.5,";reverse";:";true";,";css";:{";y";:{";from";:-50,";to";:50}},";easing";:";Power0.easeOut";}}"> 
                 <div class="kl-bg-source ">
-                 <div class="kl-bg-source__bgimage" style="background-image:url(http://www.gfchina.net/wp-content/uploads/2017/03/5.jpg);background-repeat:repeat;background-attachment:scroll;background-position:center center;background-size:cover"></div>
+                 <div class="kl-bg-source__bgimage" style="background-image:url(./assets/images/5.jpg);background-repeat:repeat;background-attachment:scroll;background-position:center center;background-size:cover"></div>
                 </div> 
                </div> 
               </div> 
@@ -1118,7 +1118,7 @@
         <div class="znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left "> 
          <div class="znColumnElement-innerContent"> 
           <div class="kl-title-block clearfix tbk--text- tbk--center text-center tbk-symbol--border tbk--colored tbk-icon-pos--after-subtitle eluida119788b  no_animation">
-           <h3 class="tbk__title" itemprop="headline">全球布局</h3>
+           <h3 class="tbk__title" itemprop="headline" style="height: 35px;">全球布局</h3>
            <h4 class="tbk__subtitle" itemprop="alternativeHeadline">Globalization</h4>
            <span class="tbk__symbol "><span></span></span>
           </div> 
@@ -1195,7 +1195,7 @@
         <div class="znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left "> 
          <div class="znColumnElement-innerContent"> 
           <div class="kl-title-block clearfix tbk--text- tbk--center text-center tbk-symbol--border tbk--colored tbk-icon-pos--after-subtitle eluid44444aa2  no_animation">
-           <h3 class="tbk__title" itemprop="headline">新闻中心</h3>
+           <h3 class="tbk__title" itemprop="headline" style="height: 35px;">新闻中心</h3>
            <h4 class="tbk__subtitle" itemprop="alternativeHeadline">News</h4>
            <span class="tbk__symbol "><span></span></span>
           </div> 
