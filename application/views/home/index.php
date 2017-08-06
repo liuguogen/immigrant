@@ -4,20 +4,20 @@
   <meta charset="UTF-8" /> 
   <meta name="twitter:widgets:csp" content="on" /> 
   <title>绿野资本集团 – Greenfield Capital Group</title> 
-  <link rel="stylesheet" id="kallyas-styles-css" href="http://www.gfchina.net/wp-content/themes/kallyas/style.css?ver=4.11.0" type="text/css" media="all" /> 
-  <link rel="stylesheet" id="th-bootstrap-styles-css" href="http://www.gfchina.net/wp-content/themes/kallyas/css/bootstrap.min.css?ver=4.11.0" type="text/css" media="all" /> 
-  <link rel="stylesheet" id="th-theme-template-styles-css" href="http://www.gfchina.net/wp-content/themes/kallyas/css/template.min.css?ver=4.11.0" type="text/css" media="all" /> 
-  <link rel="stylesheet" id="rs-plugin-settings-css" href="http://www.gfchina.net/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.4.1" type="text/css" media="all" /> 
+  <link rel="stylesheet"  href="./assets/css/style.css" type="text/css" media="all" /> 
+  <link rel="stylesheet"  href="./assets/css/bootstrap.min.css" type="text/css" media="all" /> 
+  <link rel="stylesheet"  href="./assets/css/template.min.css" type="text/css" media="all" /> 
+  <link rel="stylesheet"  href="./assets/css/settings.css" type="text/css" media="all" /> 
   
-  <link rel="stylesheet" id="65-layout.css-css" href="//www.gfchina.net/wp-content/uploads/kallyas-builder/cache/65-layout.css?ver=bd4da77387649a7a1357190ebd28bd92" type="text/css" media="all" /> 
-  <link rel="stylesheet" id="th-theme-print-stylesheet-css" href="http://www.gfchina.net/wp-content/themes/kallyas/css/print.css?ver=4.11.0" type="text/css" media="print" /> 
-  <link rel="stylesheet" id="animate.css-css" href="http://www.gfchina.net/wp-content/themes/kallyas/addons/wowjs/animate.min.css?ver=4.11.0" type="text/css" media="all" /> 
-  <link rel="stylesheet" id="th-theme-options-styles-css" href="//www.gfchina.net/wp-content/uploads/zn_dynamic.css?ver=1497324946.4623" type="text/css" media="all" /> 
-  <script type="text/javascript" src="http://www.gfchina.net/wp-includes/js/jquery/jquery.js?ver=1.12.4"></script> 
-  <script type="text/javascript" src="http://www.gfchina.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1"></script> 
+  <link rel="stylesheet"  href="./assets/css/layout.css" type="text/css" media="all" /> 
+  <link rel="stylesheet"  href="./assets/css/print.css" type="text/css" media="print" /> 
+  <link rel="stylesheet"  href="./assets/css/animate.min.css" type="text/css" media="all" /> 
+  <link rel="stylesheet"  href="./assets/css/zn_dynamic.css" type="text/css" media="all" /> 
+  <script type="text/javascript" src="./assets/js/jquery.js"></script> 
+  <script type="text/javascript" src="./assets/js/jquery-migrate.min.js"></script> 
   <script type="text/javascript" src="http://www.gfchina.net/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.4.1"></script> 
-  <script type="text/javascript" src="http://www.gfchina.net/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.4.1"></script> 
-  <script type="text/javascript" src="http://www.gfchina.net/wp-content/themes/kallyas/addons/wowjs/wow.js?ver=4.11.0"></script> 
+  <script type="text/javascript" src="./assets/js/jquery.themepunch.revolution.min.js"></script> 
+  <script type="text/javascript" src="./assets/js/wow.js"></script> 
   <link rel="stylesheet" href="./assets/css/min.css" type="text/css" /> 
 
   <script type="text/javascript" src="./assets/js/js.js"></script>
@@ -938,7 +938,7 @@
                 <div class="kl-title-block clearfix tbk--text- tbk--center text-center tbk-symbol--line tbk--colored tbk-icon-pos--after-title eluid2fa81003  no_animation znParallax-object" data-zn-parallax-obj="{";scene";:{";triggerHook";:";onEnter";,";triggerElement";:";.eluid2fa81003";,";duration";:";force_full";},";tween";:{";speed";:0.8,";reverse";:";false";,";css";:{";y";:{";from";:-50,";to";:50}},";easing";:";Power1.easeOut";}}">
                  <h2 class="tbk__title" itemprop="headline">关于集团</h2>
                  <span class="tbk__symbol "><span></span></span>
-                 <h4 class="tbk__subtitle" itemprop="alternativeHeadline">ABOUT US</h4>
+                 <h4 class="tbk__subtitle" itemprop="alternativeHeadline" style="height: 60px;">ABOUT US</h4>
                 </div> 
                </div> 
               </div> 
@@ -962,10 +962,10 @@
               <div class="znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left "> 
                <div class="znColumnElement-innerContent"> 
                 <div class="zn_text_box eluid6b2411cf  no_animation zn_text_box-light element-scheme--light">
-                 <p><span style="font-size: 22px; color: #999999;">绿野资本集团（Greenfield Capital Group）是领先的世界自由贸易生态圈缔造者（ Leading Founder of World Free Trade Ecosystem），专业从事全球范围内的自由贸易园区规划咨询、土地储备、投资开发、运营管理，以及全球投资服务和离岸金融服务。经过十年的发展，绿野资本集团基于“产业生态圈”理念，建立了以自由贸易园区产业（规划咨询、土地储备、投资开发、运营管理）为龙头、产业地产为主体、全球投资服务和离岸金融服务为两翼的全产业链生态圈业务模式，并形成了绿野加勒比、绿野欧洲、绿野北美、绿野中东、绿野大中华五个区域业务集群。</span></p> 
+                 <p><span style="font-size: 22px; color: #999999;line-height: 39px;">绿野资本集团（Greenfield Capital Group）是领先的世界自由贸易生态圈缔造者（ Leading Founder of World Free Trade Ecosystem），专业从事全球范围内的自由贸易园区规划咨询、土地储备、投资开发、运营管理，以及全球投资服务和离岸金融服务。经过十年的发展，绿野资本集团基于“产业生态圈”理念，建立了以自由贸易园区产业（规划咨询、土地储备、投资开发、运营管理）为龙头、产业地产为主体、全球投资服务和离岸金融服务为两翼的全产业链生态圈业务模式，并形成了绿野加勒比、绿野欧洲、绿野北美、绿野中东、绿野大中华五个区域业务集群。</span></p> 
                 </div>
                 <div class="zn_buttons_element eluidd5d6fd3a text-center  no_animation">
-                 <a href="http://www.gfchina.net/survey/" id="eluidd5d6fd3a0" class="eluidd5d6fd3a0 btn-element btn-element-0 btn  btn-lined btn-custom-color btn-md  zn_dummy_value btn-icon--after btn--rounded" title="关于绿野集团" target="_self" itemprop="url"><span>了解更多</span><span class="btn-element-icon" data-zniconfam="glyphicons_halflingsregular" data-zn_icon=""></span></a>
+                 <a href="http://www.gfchina.net/survey/" id="eluidd5d6fd3a0" class="eluidd5d6fd3a0 btn-element btn-element-0 btn  btn-lined btn-custom-color btn-md  zn_dummy_value btn-icon--after btn--rounded" title="关于绿野集团" target="_self" itemprop="url" style="background: #fff;"><span>了解更多></span><span class="btn-element-icon" data-zniconfam="glyphicons_halflingsregular" ></span></a>
                 </div> 
                </div> 
               </div> 
@@ -1318,10 +1318,7 @@
   <script type="text/javascript" src="http://www.gfchina.net/wp-content/themes/kallyas/js/plugins.min.js?ver=4.11.0"></script> 
   <script type="text/javascript" src="http://www.gfchina.net/wp-content/themes/kallyas/addons/scrollmagic/scrollmagic-tweenlite.js?ver=4.11.0"></script> 
 
-  <script type="text/javascript">
-var zn_do_login = {"ajaxurl":"wp-admin/admin-ajax.php","add_to_cart_text":"Item Added to cart!"};
-var ZnThemeAjax = {"ajaxurl":"wp-admin/admin-ajax.php","zn_back_text":"Back","zn_color_theme":"light","res_menu_trigger":"997","top_offset_tolerance":"20","logout_url":"http:www.gfchina.netwp-login.php?action=logout&redirect_to=http%3A%2F%2Fwww.gfchina.net&_wpnonce=ecdfd88975"};
-</script> 
+  
   <script type="text/javascript" src="http://www.gfchina.net/wp-content/themes/kallyas/js/znscript.min.js?ver=4.11.0"></script> 
   <script type="text/javascript" src="http://www.gfchina.net/wp-content/themes/kallyas/addons/slick/slick.min.js?ver=4.11.0"></script> 
   <script type="text/javascript" src="http://www.gfchina.net/wp-includes/js/wp-embed.min.js?ver=4.8.1"></script>   
