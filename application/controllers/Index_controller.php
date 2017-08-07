@@ -20,7 +20,32 @@ class Index_controller extends CI_Controller {
 	 */
 	public function index()
 	{
-		//echo base_url();
+		
 		$this->load->view('home/index');
+	}
+	/**
+	**企业概况
+	*/
+	public function groupOverview() {
+
+		$this->load->view('home/overview');
+	}
+	/**
+	**核心业务
+	**/
+	public function business() {
+		$this->load->view('home/business');
+	}
+	/**
+	**全球布局
+	**/
+	public function globalLayout() {
+		$this->load->view('home/globalLayout');
+	}
+	/**
+	**联系我们
+	**/
+	public function contactUs() {
+		$this->load->view('home/contactUs');
 	}
 }

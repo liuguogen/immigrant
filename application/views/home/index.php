@@ -4,23 +4,23 @@
   <meta charset="UTF-8" /> 
   <meta name="twitter:widgets:csp" content="on" /> 
   <title>绿野资本集团 – Greenfield Capital Group</title> 
-  <link rel="stylesheet"  href="./assets/css/style.css" type="text/css" media="all" /> 
-  <link rel="stylesheet"  href="./assets/css/bootstrap.min.css" type="text/css" media="all" /> 
-  <link rel="stylesheet"  href="./assets/css/template.min.css" type="text/css" media="all" /> 
-  <link rel="stylesheet"  href="./assets/css/settings.css" type="text/css" media="all" /> 
+  <link rel="stylesheet"  href="<?php echo base_url() ?>/assets/css/style.css" type="text/css" media="all" /> 
+  <link rel="stylesheet"  href="<?php echo base_url() ?>/assets/css/bootstrap.min.css" type="text/css" media="all" /> 
+  <link rel="stylesheet"  href="<?php echo base_url() ?>/assets/css/template.min.css" type="text/css" media="all" /> 
+  <link rel="stylesheet"  href="<?php echo base_url() ?>/assets/css/settings.css" type="text/css" media="all" /> 
   
-  <link rel="stylesheet"  href="./assets/css/layout.css" type="text/css" media="all" /> 
-  <link rel="stylesheet"  href="./assets/css/print.css" type="text/css" media="print" /> 
-  <link rel="stylesheet"  href="./assets/css/animate.min.css" type="text/css" media="all" /> 
-  <link rel="stylesheet"  href="./assets/css/zn_dynamic.css" type="text/css" media="all" /> 
-  <script type="text/javascript" src="./assets/js/jquery.js"></script> 
-  <script type="text/javascript" src="./assets/js/jquery-migrate.min.js"></script> 
-  <script type="text/javascript" src="http://www.gfchina.net/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.4.1"></script> 
-  <script type="text/javascript" src="./assets/js/jquery.themepunch.revolution.min.js"></script> 
-  <script type="text/javascript" src="./assets/js/wow.js"></script> 
-  <link rel="stylesheet" href="./assets/css/min.css" type="text/css" /> 
+  <link rel="stylesheet"  href="<?php echo base_url() ?>/assets/css/layout.css" type="text/css" media="all" /> 
+  <link rel="stylesheet"  href="<?php echo base_url() ?>/assets/css/print.css" type="text/css" media="print" /> 
+  <link rel="stylesheet"  href="<?php echo base_url() ?>/assets/css/animate.min.css" type="text/css" media="all" /> 
+  <link rel="stylesheet"  href="<?php echo base_url() ?>/assets/css/zn_dynamic.css" type="text/css" media="all" /> 
+  <script type="text/javascript" src="<?php echo base_url() ?>/assets/js/jquery.js"></script> 
+  <script type="text/javascript" src="<?php echo base_url() ?>/assets/js/jquery-migrate.min.js"></script> 
+  <script type="text/javascript" src="<?php echo base_url() ?>/assets/js/jquery.themepunch.tools.min.js"></script> 
+  <script type="text/javascript" src="<?php echo base_url() ?>/assets/js/jquery.themepunch.revolution.min.js"></script> 
+  <script type="text/javascript" src="<?php echo base_url() ?>/assets/js/wow.js"></script> 
+  <link rel="stylesheet" href="<?php echo base_url() ?>/assets/css/min.css" type="text/css" /> 
 
-  <script type="text/javascript" src="./assets/js/js.js"></script>
+  <script type="text/javascript" src="<?php echo base_url() ?>/assets/js/js.js"></script>
   <meta name="theme-color" content="#a69871" /> 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
   <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style> 
@@ -759,96 +759,8 @@
 </style>
  </head> 
  <body class="home page-template-default page page-id-65 res1170 kl-follow-menu kl-skin--light" itemscope="itemscope" itemtype="https://schema.org/WebPage"> 
-  <div class="login_register_stuff"></div>
-  <!-- end login register stuff --> 
-  <div id="fb-root"></div> 
-  <div id="page_wrapper"> 
-   <header id="header" class="site-header  style14 cta_button  header--follow    sticky-resize headerstyle--image_color site-header--absolute nav-th--light sheader-sh--dark" data-original-sticky-textscheme="sh--dark" role="banner" itemscope="itemscope" itemtype="https://schema.org/WPHeader"> 
-    <div class="site-header-wrapper sticky-top-area"> 
-     <div class="site-header-top-wrapper topbar-style--default  sh--dark"> 
-      <div class="siteheader-container container"> 
-      </div> 
-     </div>
-     <!-- /.site-header-top-wrapper --> 
-     <div class="kl-top-header site-header-main-wrapper clearfix  header-no-top  header-no-bottom  sh--dark"> 
-      <div class="container siteheader-container "> 
-       <div class="fxb-col fxb-basis-auto"> 
-        <div class="fxb-row site-header-row site-header-main "> 
-         <div class="fxb-col fxb fxb-start-x fxb-center-y fxb-basis-auto fxb-grow-0 fxb-sm-full site-header-col-left site-header-main-left"> 
-          <div id="logo-container" class="logo-container   logosize--yes zn-original-logo"> 
-           <!-- Logo --> 
-           <h1 class="site-logo logo " id="logo"><a href="http://www.gfchina.net/" class="site-logo-anch"><img class="logo-img site-logo-img" src="./assets/images/gfc-logo1.png" alt="绿野资本集团" title="Greenfield Capital Group" data-mobile-logo="./assets/images/gfc-logo1.png" /></a></h1> 
-           <!-- InfoCard --> 
-          </div> 
-         </div> 
-         <div class="fxb-col fxb fxb-center-x fxb-center-y fxb-basis-auto fxb-sm-half site-header-col-center site-header-main-center"> 
-          <div class="sh-component main-menu-wrapper" role="navigation" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement"> 
-           <div class="zn-res-menuwrapper"> 
-            <a href="#" class="zn-res-trigger zn-menuBurger zn-menuBurger--3--s zn-menuBurger--anim3 " id="zn-res-trigger"> <span></span> <span></span> <span></span> </a> 
-           </div>
-           <!-- end responsive menu --> 
-           <div id="main-menu" class="main-nav mainnav--sidepanel mainnav--active-uline mainnav--pointer-dash nav-mm--light zn_mega_wrapper ">
-            <ul id="menu-%e7%bb%bf%e9%87%8e%e8%b5%84%e6%9c%ac%e7%9b%ae%e5%bd%95" class="main-menu main-menu-nav zn_mega_menu ">
-             <li id="menu-item-145" class="main-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-146  main-menu-item-top  menu-item-even menu-item-depth-0"><a href="http://www.gfchina.net/business/" class=" main-menu-link main-menu-link-top"><span>集团概况</span></a></li> 
-              <!-- <ul class="sub-menu clearfix"> 
-               <li id="menu-item-232" class="main-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-232  main-menu-item-sub  menu-item-odd menu-item-depth-1"><a href="http://www.gfchina.net/survey/" class=" main-menu-link main-menu-link-sub"><span>集团概况</span></a></li> 
-               <li id="menu-item-233" class="main-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-233  main-menu-item-sub  menu-item-odd menu-item-depth-1"><a href="http://www.gfchina.net/advantage/" class=" main-menu-link main-menu-link-sub"><span>集团优势</span></a></li> 
-              </ul> </li>  -->
-             <li id="menu-item-146" class="main-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-146  main-menu-item-top  menu-item-even menu-item-depth-0"><a href="http://www.gfchina.net/business/" class=" main-menu-link main-menu-link-top"><span>核心战略</span></a></li> 
-             <li id="menu-item-147" class="main-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-147  main-menu-item-top  menu-item-even menu-item-depth-0"><a href="http://www.gfchina.net/core-business/" class=" main-menu-link main-menu-link-top"><span>核心业务</span></a></li> 
-             <li id="menu-item-148" class="main-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-148  main-menu-item-top  menu-item-even menu-item-depth-0"><a href="http://www.gfchina.net/office/" class=" main-menu-link main-menu-link-top"><span>全球布局</span></a></li> 
-             <li id="menu-item-149" class="main-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-149  main-menu-item-top  menu-item-even menu-item-depth-0"><a href="http://www.gfchina.net/contact/" class=" main-menu-link main-menu-link-top"><span>联系我们</span></a></li> 
-            </ul>
-           </div> 
-          </div> 
-          <!-- end main_menu --> 
-         </div> 
-         <!-- <div class="fxb-col fxb fxb-end-x fxb-center-y fxb-basis-auto fxb-sm-half site-header-col-right site-header-main-right"> 
-          <div class="fxb-col fxb fxb-end-x fxb-center-y fxb-basis-auto fxb-sm-half site-header-main-right-top"> 
-           <a href="http://www.gfchina.net" class="sh-component ctabutton cta-button-0 kl-cta-custom btn btn-lined btn-skewed lined-gray btn-xs zn_dummy_value cta-icon--before btn--rounded" target="_self" itemprop="url"><span>CN</span></a>
-           <a href="http://www.gfcapital.net" class="sh-component ctabutton cta-button-1 kl-cta-custom btn btn-lined btn-skewed lined-gray btn-xs zn_dummy_value cta-icon--before btn--rounded" target="_self" itemprop="url"><span>EN</span></a> 
-          </div> 
-         </div>  -->
-        </div>
-        <!-- /.site-header-main --> 
-       </div> 
-      </div>
-      <!-- /.siteheader-container --> 
-     </div>
-     <!-- /.site-header-main-wrapper --> 
-    </div>
-    <!-- /.site-header-wrapper --> 
-   </header> 
-   <div id="banner" style="margin: 140px 0 105px 0;">
-   <div id="banner_slide1" class="cwin_class cwin_class_banner" style="margin:0 auto;width:100%;height:480px; "> 
-    <div id="banner_cwin_box1"> 
-     <ul id="banner_cwin_content1">
-      <li style="width:100%;height:480px; background:url(http://demo15-3.kd200.com/i2880004158/Upload/cn/slice/201707/FRQHZotHxTb0dvLxoaK5rubjDJXxvSRm.jpg) center top no-repeat;background-size:cover;"></li>
-      <li style="width:100%;height:480px; background:url(http://demo15-3.kd200.com/i2880004158/Upload/cn/slice/201707/StShc7fMUqdCqdPhJj0CUyVICQQKtJNG.jpg) center top no-repeat;background-size:cover;"></li>
-     </ul>
-     <div class="clear"></div>
-    </div>
-    <div class="cwin_tab_page" id="banner_cwin_tab_page1">
-     <a href="javascript:;">1</a>
-     <a href="javascript:;">2</a>
-    </div>
-    <div class="cwin_triggers" id="banner_cwin_triggers1"> 
-     <a class="prev" id="banner_cwin_prev1" href="javascript:void(0);"><b class="corner"></b><span>&lt;</span><b class="corner"></b></a> 
-     <a class="next" id="banner_cwin_next1" href="javascript:void(0);"><b class="corner"></b><span>&gt;</span><b class="corner"></b></a> 
-    </div>
-   </div>
-      <script type="text/javascript">
-        $(function(){var object1 = {effect:"left",titCell:"#banner_cwin_tab_page1 a",prevCell:"#banner_cwin_prev1",nextCell:"#banner_cwin_next1",trigger:"click",mainCell:"#banner_cwin_content1",interTime:5000,delayTime:500,autoPlay:true};var object2 = window.banner_slide1Option;if(typeof(object2) === "object"){$.extend(true, object1, object2);};$("#banner_slide1").slide(object1);
-          });
-      </script>
-           
-          </div> 
-         </div> 
-        </div> 
-       </div> 
-      </div> 
-     </div> 
-    </section> 
+  <?php $this->load->view('public/header') ?>
+  
     <section class="zn_section eluid6ccb6e28   bounceIn wow   section-sidemargins u-zindex-1   section--no " id="eluid6ccb6e28" data-wow-delay="700ms"> 
      <div class="zn_section_size container zn-section-height--auto zn-section-content_algn--top "> 
       <div class="row "> 
@@ -926,7 +838,7 @@
           <div class="media-container eluid9b52cf3a  no_animation media-container--type-pb kl-overlay-none  znBoxShadow--hov-6 znBoxShadow--hover"> 
            <div class="kl-bg-source znParallax-background">
             <div class="kl-bg-source__parallaxWrapper zn-parallaxHack--center" style="transform: translate3d(0px, 223.095px, 0px);">
-             <img class="kl-bg-source__bgimage cover-fit-img wh" src="./assets/images/portfolio-2.jpg" />
+             <img class="kl-bg-source__bgimage cover-fit-img wh" src="<?php echo base_url() ?>/assets/images/portfolio-2.jpg" />
             </div>
             <div class="kl-bg-source__overlay ov-eluid9b52cf3a" style="background: rgba(18,18,50,0.45); background: -moz-linear-gradient(top,  rgba(18,18,50,0.45) 0%, rgba(166,152,113,0.49) 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(18,18,50,0.45)), color-stop(100%,rgba(166,152,113,0.49))); background: -webkit-linear-gradient(top,  rgba(18,18,50,0.45) 0%,rgba(166,152,113,0.49) 100%); background: -o-linear-gradient(top,  rgba(18,18,50,0.45) 0%,rgba(166,152,113,0.49) 100%); background: -ms-linear-gradient(top,  rgba(18,18,50,0.45) 0%,rgba(166,152,113,0.49) 100%); background: linear-gradient(to bottom,  rgba(18,18,50,0.45) 0%,rgba(166,152,113,0.49) 100%); "></div>
            </div>
@@ -1044,7 +956,7 @@
          <div class="znColumnElement-innerContent"> 
           <div class="media-container eluid930fd003  no_animation media-container--type- kl-overlay-none znBoxShadow-2 "> 
            <div class="kl-bg-source ">
-            <div class="kl-bg-source__bgimage" style="background-image:url(./assets/images/6.jpg);background-repeat:repeat;background-attachment:scroll;background-position:center center;background-size:cover"></div>
+            <div class="kl-bg-source__bgimage" style="background-image:url(<?php echo base_url() ?>/assets/images/6.jpg);background-repeat:repeat;background-attachment:scroll;background-position:center center;background-size:cover"></div>
            </div> 
           </div> 
           <div class="zn_custom_container eluid3eb5bf82  no_animation smart-cnt--default   clearfix"> 
@@ -1054,7 +966,7 @@
               <div class="znColumnElement-innerContent"> 
                <div class="media-container eluid1f7f0e3f  no_animation media-container--type- kl-overlay-none znBoxShadow-6  znParallax-object" data-zn-parallax-obj="{";scene";:{";triggerHook";:";onEnter";,";triggerElement";:";.eluid1f7f0e3f";,";duration";:";force_full";},";tween";:{";speed";:0.5,";reverse";:";true";,";css";:{";y";:{";from";:-50,";to";:50}},";easing";:";Power0.easeOut";}}"> 
                 <div class="kl-bg-source ">
-                 <div class="kl-bg-source__bgimage" style="background-image:url(./assets/images/5.jpg);background-repeat:repeat;background-attachment:scroll;background-position:center center;background-size:cover"></div>
+                 <div class="kl-bg-source__bgimage" style="background-image:url(<?php echo base_url() ?>/assets/images/5.jpg);background-repeat:repeat;background-attachment:scroll;background-position:center center;background-size:cover"></div>
                 </div> 
                </div> 
               </div> 
@@ -1083,16 +995,16 @@
             <div class="ts-pt-partners__carousel-wrapper"> 
              <div class="ts-pt-partners__carousel"> 
               <div class="ts-pt-partners__carousel-item"> 
-               <img class="ts-pt-partners__img img-responsive" src="./assets/images/jlbzmq.png" width="402" height="100" alt="" title="jlbzmq" /> 
+               <img class="ts-pt-partners__img img-responsive" src="<?php echo base_url() ?>/assets/images/jlbzmq.png" width="402" height="100" alt="" title="jlbzmq" /> 
               </div> 
               <div class="ts-pt-partners__carousel-item"> 
-               <img class="ts-pt-partners__img img-responsive" src="./assets/images/jlbzmq.png" width="273" height="100" alt="" title="amazon_logo-g" /> 
+               <img class="ts-pt-partners__img img-responsive" src="<?php echo base_url() ?>/assets/images/jlbzmq.png" width="273" height="100" alt="" title="amazon_logo-g" /> 
               </div> 
               <div class="ts-pt-partners__carousel-item"> 
-               <img class="ts-pt-partners__img img-responsive" src="./assets/images/ARISTO_LOGO.png" width="276" height="100" alt="" title="VIRGINAMERICALOGO" /> 
+               <img class="ts-pt-partners__img img-responsive" src="<?php echo base_url() ?>/assets/images/ARISTO_LOGO.png" width="276" height="100" alt="" title="VIRGINAMERICALOGO" /> 
               </div> 
               <div class="ts-pt-partners__carousel-item"> 
-               <img class="ts-pt-partners__img img-responsive" src="./assets/images/ARISTO_LOGO.png" width="276" height="100" alt="" title="VIRGINAMERICALOGO" /> 
+               <img class="ts-pt-partners__img img-responsive" src="<?php echo base_url() ?>/assets/images/ARISTO_LOGO.png" width="276" height="100" alt="" title="VIRGINAMERICALOGO" /> 
               </div> 
              
               
@@ -1129,7 +1041,7 @@
               <div class="grid-ibx__item-inner"> 
                <a href="http://www.51land.net" class="grid-ibx__link clearfix" target="_blank" itemprop="url"> 
                 <div class="grid-ibx__icon-wrp"> 
-                 <img class="grid-ibx__icon" src="./assets/images/North-America.png" width="60" height="60" alt="" title="North America" /> 
+                 <img class="grid-ibx__icon" src="<?php echo base_url() ?>/assets/images/North-America.png" width="60" height="60" alt="" title="North America" /> 
                 </div> 
                 <div class="grid-ibx__title-wrp"> 
                  <h4 class="grid-ibx__title element-scheme__hdg1" itemprop="headline">北美地区</h4> 
@@ -1140,7 +1052,7 @@
              <div class="grid-ibx__item  grid-ibx__item--type-img text-center grid-ibx__item-1"> 
               <div class="grid-ibx__item-inner"> 
                <div class="grid-ibx__icon-wrp"> 
-                <img class="grid-ibx__icon" src="./assets/images/North-America.png" width="60" height="60" alt="" title="china" /> 
+                <img class="grid-ibx__icon" src="<?php echo base_url() ?>/assets/images/North-America.png" width="60" height="60" alt="" title="china" /> 
                </div> 
                <div class="grid-ibx__title-wrp"> 
                 <h4 class="grid-ibx__title element-scheme__hdg1" itemprop="headline">大中华地区</h4> 
@@ -1152,7 +1064,7 @@
               <div class="grid-ibx__item-inner"> 
                <a href="http://www.gfeur.com/" class="grid-ibx__link clearfix" target="_blank" itemprop="url"> 
                 <div class="grid-ibx__icon-wrp"> 
-                 <img class="grid-ibx__icon" src="./assets/images/North-America.png" width="60" height="60" alt="" title="Europe" /> 
+                 <img class="grid-ibx__icon" src="<?php echo base_url() ?>/assets/images/North-America.png" width="60" height="60" alt="" title="Europe" /> 
                 </div> 
                 <div class="grid-ibx__title-wrp"> 
                  <h4 class="grid-ibx__title element-scheme__hdg1" itemprop="headline">欧洲地区</h4> 
@@ -1164,7 +1076,7 @@
               <div class="grid-ibx__item-inner"> 
                <a href="http://www.cariftz.org/" class="grid-ibx__link clearfix" target="_blank" itemprop="url"> 
                 <div class="grid-ibx__icon-wrp"> 
-                 <img class="grid-ibx__icon" src="./assets/images/North-America.png" width="60" height="60" alt="" title="Caribbean coast" /> 
+                 <img class="grid-ibx__icon" src="<?php echo base_url() ?>/assets/images/North-America.png" width="60" height="60" alt="" title="Caribbean coast" /> 
                 </div> 
                 <div class="grid-ibx__title-wrp"> 
                  <h4 class="grid-ibx__title element-scheme__hdg1" itemprop="headline">加勒比海</h4> 
@@ -1175,7 +1087,7 @@
              <div class="grid-ibx__item  grid-ibx__item--type-img text-center grid-ibx__item-4"> 
               <div class="grid-ibx__item-inner"> 
                <div class="grid-ibx__icon-wrp"> 
-                <img class="grid-ibx__icon" src="./assets/images/North-America.png" width="60" height="56" alt="" title="the Middle East" /> 
+                <img class="grid-ibx__icon" src="<?php echo base_url() ?>/assets/images/North-America.png" width="60" height="56" alt="" title="the Middle East" /> 
                </div> 
                <div class="grid-ibx__title-wrp"> 
                 <h4 class="grid-ibx__title element-scheme__hdg1" itemprop="headline">中东地区</h4> 
@@ -1230,79 +1142,7 @@
      </div> 
     </section> 
    </div>
-   <div class="znpb-footer-smart-area"> 
-    <section class="zn_section eluidc94df9a0   no_animation   section-sidemargins    zn_section--relative section--no " id="eluid30272d47"> 
-     <div class="kl-bg-source ">
-      <div class="kl-bg-source__bgimage" style="background-image:url(http://www.gfchina.net/wp-content/uploads/2017/03/footerbg.png);background-repeat:no-repeat;background-attachment:scroll;background-position:center center;background-size:cover"></div>
-     </div> 
-     <div class="zn_section_size full_width zn-section-height--auto zn-section-content_algn--top "> 
-      <div class="row "> 
-       <div class="eluid0e72c62d  no_animation     col-md-4 col-sm-4   znColumnElement" id="eluid0e72c62d"> 
-        <div class="znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left "> 
-         <div class="znColumnElement-innerContent"> 
-          <div class="box image-boxes imgbox-simple eluid6a9c2e78  no_animation znParallax-object" data-zn-parallax-obj="{";scene";:{";triggerHook";:";onEnter";,";triggerElement";:";.eluid6a9c2e78";,";duration";:";force_full";},";tween";:{";speed";:0.8,";reverse";:";false";,";css";:{";y";:{";from";:-25,";to";:25}},";easing";:";Power1.easeOut";}}">
-           <div class="image-boxes-holder imgboxes-wrapper u-mb-0  ">
-            <div class="image-boxes-img-wrapper img-align-left">
-             <img class="image-boxes-img img-responsive " src="./assets/images/gfc-logo.png" alt="" title="gfc-logo" />
-            </div>
-           </div>
-          </div> 
-         </div> 
-        </div> 
-       </div> 
-       <div class="eluidb51579bd  no_animation     col-md-2 col-sm-2   znColumnElement" id="eluid0e72c62d"> 
-        <div class="znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left "> 
-         <div class="znColumnElement-innerContent"> 
-         </div> 
-        </div> 
-       </div> 
-       <div class="eluid0ad73f39      col-md-4 col-sm-4   znColumnElement" id="eluid0ad73f39"> 
-        <div class="znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left "> 
-         <div class="znColumnElement-innerContent"> 
-          <div class="kl-title-block clearfix tbk--text- tbk--left text-left tbk-symbol--line  tbk-icon-pos--after-title eluid2ea2cf5b  no_animation">
-           <h3 class="tbk__title" itemprop="headline">联系我们</h3>
-           <span class="tbk__symbol "><span></span></span>
-          </div>
-          <div class="zn_text_box eluid8e6c10f7  no_animation zn_text_box-light element-scheme--light">
-           <div style="color: #a69871; font-size: 16px;"> 
-            <ul> 
-             <li>热线:400-8520-860</li> 
-             <li>香港：香港中环金融街8 号国际金融中心二期19楼</li> 
-             <li>上海：青浦区涞港路181号国家会展中心B座办公楼304室</li> 
-             <li>北京：东城区建国门内大街8号中粮广场B座307/08室</li> 
-             <li>海外：Carlisle estate,St. John' s, Antigua, West Indies</li> 
-            </ul> 
-           </div> 
-          </div> 
-         </div> 
-        </div> 
-       </div> 
-      </div> 
-     </div> 
-    </section> 
-    <section class="zn_section eluid01fc6d44   no_animation   section-sidemargins    zn_section--relative section--no " id="eluid4e5ab6e4"> 
-     <div class="kl-bg-source ">
-      <div class="kl-bg-source__bgimage" style="background-image:url(http://www.gfchina.net/wp-content/uploads/2017/03/footerbg.png);background-repeat:no-repeat;background-attachment:scroll;background-position:center center;background-size:cover"></div>
-      <div class="kl-bg-source__overlay " style="background-color:rgba(99,99,99,0.3)"></div>
-     </div> 
-     <div class="zn_section_size full_width zn-section-height--auto zn-section-content_algn--top "> 
-      <div class="row "> 
-       <div class="eluid09a0febd      col-md-12 col-sm-12   znColumnElement" id="eluid09a0febd"> 
-        <div class="znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left "> 
-         <div class="znColumnElement-innerContent"> 
-          <div class="zn_text_box eluid29bcb6e7  no_animation zn_text_box-light element-scheme--light">
-           <div style="color: #a69871; font-size: 16px;">
-            &copy;2007 – 2017 – All Rights Reserved.
-           </div> 
-          </div> 
-         </div> 
-        </div> 
-       </div> 
-      </div> 
-     </div> 
-    </section> 
-   </div>
-  </div>
+   <?php $this->load->view('public/footer') ?>
   <!-- end page_wrapper --> 
   <a href="#" id="totop" class="u-trans-all-2s js-scroll-event" data-forch="300" data-visibleclass="on--totop">TOP</a> 
   <script type="text/javascript">
@@ -1322,15 +1162,5 @@
   <script type="text/javascript" src="http://www.gfchina.net/wp-content/themes/kallyas/js/znscript.min.js?ver=4.11.0"></script> 
   <script type="text/javascript" src="http://www.gfchina.net/wp-content/themes/kallyas/addons/slick/slick.min.js?ver=4.11.0"></script> 
   <script type="text/javascript" src="http://www.gfchina.net/wp-includes/js/wp-embed.min.js?ver=4.8.1"></script>   
-  <div class="chaser" id="" style="position: fixed; opacity: 0; transform: matrix(1, 0, 0, 1, 0, -30);"><div class="container">
-  <div class="row">
-  <div class="col-md-12">
-  <ul id="menu-%e7%bb%bf%e9%87%8e%e8%b5%84%e6%9c%ac%e7%9b%ae%e5%bd%95" class="main-menu main-menu-nav zn_mega_menu  chaser-main-menu">
-  <li id="menu-item-145" class="main-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-146  main-menu-item-top  menu-item-even menu-item-depth-0"><a href="http://www.gfchina.net/business/" class=" main-menu-link main-menu-link-top"><span>集团概况</span></a></li>
-<li id="menu-item-146" class="main-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-146  main-menu-item-top  menu-item-even menu-item-depth-0"><a href="http://www.gfchina.net/business/" class=" main-menu-link main-menu-link-top"><span>核心战略</span></a></li>
-<li id="menu-item-147" class="main-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-147  main-menu-item-top  menu-item-even menu-item-depth-0"><a href="http://www.gfchina.net/core-business/" class=" main-menu-link main-menu-link-top"><span>核心业务</span></a></li>
-<li id="menu-item-148" class="main-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-148  main-menu-item-top  menu-item-even menu-item-depth-0"><a href="http://www.gfchina.net/office/" class=" main-menu-link main-menu-link-top"><span>全球布局</span></a></li>
-<li id="menu-item-149" class="main-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-149  main-menu-item-top  menu-item-even menu-item-depth-0"><a href="http://www.gfchina.net/contact/" class=" main-menu-link main-menu-link-top"><span>联系我们</span></a></li>
-</ul></div></div></div></div>
  </body>
 </html>
