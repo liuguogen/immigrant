@@ -2,7 +2,7 @@
   <!-- end login register stuff --> 
   <div id="fb-root"></div> 
   <div id="page_wrapper"> 
-   <header id="header" class="site-header  style14 cta_button  header--follow    sticky-resize headerstyle--image_color site-header--absolute nav-th--light sheader-sh--dark" data-original-sticky-textscheme="sh--dark" role="banner" itemscope="itemscope" itemtype="https://schema.org/WPHeader"> 
+   <header id="header" class="site-header  style14 cta_button  header--follow    sticky-resize headerstyle--image_color site-header--absolute nav-th--light sheader-sh--dark" data-original-sticky-textscheme="sh--dark" role="banner" itemscope="itemscope"> 
     <div class="site-header-wrapper sticky-top-area"> 
      <div class="site-header-top-wrapper topbar-style--default  sh--dark"> 
       <div class="siteheader-container container"> 
@@ -16,12 +16,12 @@
          <div class="fxb-col fxb fxb-start-x fxb-center-y fxb-basis-auto fxb-grow-0 fxb-sm-full site-header-col-left site-header-main-left"> 
           <div id="logo-container" class="logo-container   logosize--yes zn-original-logo"> 
            <!-- Logo --> 
-           <h1 class="site-logo logo " id="logo"><a href="http://www.gfchina.net/" class="site-logo-anch"><img class="logo-img site-logo-img" src="<?php echo base_url() ?>/assets/images/gfc-logo1.png" alt="绿野资本集团" title="Greenfield Capital Group" data-mobile-logo="<?php echo base_url() ?>/assets/images/gfc-logo1.png" /></a></h1> 
+           <h1 class="site-logo logo " id="logo"><a href="<?php echo site_url() ?>" class="site-logo-anch"><img class="logo-img site-logo-img" src="<?php echo base_url() ?><?php echo $this->config->item('top_logo','home') ?>" alt="<?php echo $this->config->item('sitename','home') ?>" title="Greenfield Capital Group" data-mobile-logo="<?php echo base_url() ?><?php echo $this->config->item('top_logo','home') ?>" /></a></h1> 
            <!-- InfoCard --> 
           </div> 
          </div> 
          <div class="fxb-col fxb fxb-center-x fxb-center-y fxb-basis-auto fxb-sm-half site-header-col-center site-header-main-center"> 
-          <div class="sh-component main-menu-wrapper" role="navigation" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement"> 
+          <div class="sh-component main-menu-wrapper" role="navigation" itemscope="itemscope"> 
            <div class="zn-res-menuwrapper"> 
             <a href="#" class="zn-res-trigger zn-menuBurger zn-menuBurger--3--s zn-menuBurger--anim3 " id="zn-res-trigger"> <span></span> <span></span> <span></span> </a> 
            </div>
@@ -62,8 +62,15 @@
    <div id="banner_slide1" class="cwin_class cwin_class_banner" style="margin:0 auto;width:100%;height:480px; "> 
     <div id="banner_cwin_box1"> 
      <ul id="banner_cwin_content1">
-      <li style="width:100%;height:480px; background:url(http://demo15-3.kd200.com/i2880004158/Upload/cn/slice/201707/FRQHZotHxTb0dvLxoaK5rubjDJXxvSRm.jpg) center top no-repeat;background-size:cover;"></li>
-      <li style="width:100%;height:480px; background:url(http://demo15-3.kd200.com/i2880004158/Upload/cn/slice/201707/StShc7fMUqdCqdPhJj0CUyVICQQKtJNG.jpg) center top no-repeat;background-size:cover;"></li>
+
+     <?php if($this->config->item('thumb','home')!=''){
+
+         $thumb=explode(',',$this->config->item('thumb','home'));
+         foreach($thumb as $v){
+      ?>
+      <li style="width:100%;height:480px; background:url(<?php echo base_url().$v ?>) center top no-repeat;background-size:cover;"></li>
+      
+      <?php }}?>
      </ul>
      <div class="clear"></div>
     </div>

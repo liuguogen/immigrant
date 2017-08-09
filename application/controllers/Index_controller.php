@@ -18,9 +18,18 @@ class Index_controller extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
+
+
+	public function __construct() {
+		parent::__construct();
+		$data=$this->home_model->getRow('*','setting');
+		$this->config->set_item('home',$data);
+		
+	}
 	public function index()
 	{
-		
+		//echo '<pre>';
+		//var_export($this->config->item(''));exit;
 		$this->load->view('home/index');
 	}
 	/**

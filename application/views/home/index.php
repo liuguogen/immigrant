@@ -3,7 +3,7 @@
  <head> 
   <meta charset="UTF-8" /> 
   <meta name="twitter:widgets:csp" content="on" /> 
-  <title>绿野资本集团 – Greenfield Capital Group</title> 
+  <title><?php echo $this->config->item('sitename','home') ?></title> 
   <link rel="stylesheet"  href="<?php echo base_url() ?>/assets/css/style.css" type="text/css" media="all" /> 
   <link rel="stylesheet"  href="<?php echo base_url() ?>/assets/css/bootstrap.min.css" type="text/css" media="all" /> 
   <link rel="stylesheet"  href="<?php echo base_url() ?>/assets/css/template.min.css" type="text/css" media="all" /> 
@@ -774,14 +774,14 @@
               <div class="grid-ibx__item-inner"> 
                <a href="#" class="grid-ibx__link clearfix" target="_self" itemprop="url"> 
                 <div class="grid-ibx__icon-wrp"> 
-                 <img class="grid-ibx__icon" src="http://www.gfchina.net/wp-content/uploads/2017/03/team.png" width="50" height="50" alt="" title="team" /> 
+                 <img class="grid-ibx__icon" src="<?php echo base_url() ?>/assets/images/team.png" width="50" height="50" alt="" title="team" /> 
                 </div> 
                 <div class="grid-ibx__title-wrp"> 
                  <h4 class="grid-ibx__title element-scheme__hdg1" itemprop="headline">团队管理</h4> 
                 </div> 
                 <div class="clearfix"></div> 
                 <div class="grid-ibx__desc-wrp"> 
-                 <p class="grid-ibx__desc">绿野拥有国内顶尖的投资和运营管理团队,其投资团队由国内知名的国际资本市场专家和天使投资人组成,管理团队成员均为经验丰富的企业管理专家。</p> 
+                 <p class="grid-ibx__desc"><?php echo $this->config->item('team_manage','home') ?></p> 
                 </div> </a> 
               </div> 
              </div>
@@ -790,14 +790,14 @@
               <div class="grid-ibx__item-inner"> 
                <a href="#" class="grid-ibx__link clearfix" target="_self" itemprop="url"> 
                 <div class="grid-ibx__icon-wrp"> 
-                 <img class="grid-ibx__icon" src="http://www.gfchina.net/wp-content/uploads/2017/03/company.png" width="50" height="50" alt="" title="company" /> 
+                 <img class="grid-ibx__icon" src="<?php echo base_url() ?>/assets/images/company.png" width="50" height="50" alt="" title="company" /> 
                 </div> 
                 <div class="grid-ibx__title-wrp"> 
                  <h4 class="grid-ibx__title element-scheme__hdg1" itemprop="headline">集团优势</h4> 
                 </div> 
                 <div class="clearfix"></div> 
                 <div class="grid-ibx__desc-wrp"> 
-                 <p class="grid-ibx__desc">绿野资本集团定位于领先的国际产业生态圈投资服务平台，具有高度的战略定位优势。</p> 
+                 <p class="grid-ibx__desc"><?php echo $this->config->item('group_advantage','home') ?></p> 
                 </div> </a> 
               </div> 
              </div>
@@ -806,14 +806,14 @@
               <div class="grid-ibx__item-inner"> 
                <a href="#" class="grid-ibx__link clearfix" target="_self" itemprop="url"> 
                 <div class="grid-ibx__icon-wrp"> 
-                 <img class="grid-ibx__icon" src="http://www.gfchina.net/wp-content/uploads/2017/03/business.png" width="50" height="50" alt="" title="business" /> 
+                 <img class="grid-ibx__icon" src="<?php echo base_url() ?>/assets/images/business.png" width="50" height="50" alt="" title="business" /> 
                 </div> 
                 <div class="grid-ibx__title-wrp"> 
                  <h4 class="grid-ibx__title element-scheme__hdg1" itemprop="headline">集团业务</h4> 
                 </div> 
                 <div class="clearfix"></div> 
                 <div class="grid-ibx__desc-wrp"> 
-                 <p class="grid-ibx__desc">绿野资本集团的核心业务是以自由贸易区产业为核心、全球投资服务和离岸金融服务产业为两翼。</p> 
+                 <p class="grid-ibx__desc"><?php echo $this->config->item('group_business','home') ?></p> 
                 </div> </a> 
               </div> 
              </div>
@@ -838,7 +838,7 @@
           <div class="media-container eluid9b52cf3a  no_animation media-container--type-pb kl-overlay-none  znBoxShadow--hov-6 znBoxShadow--hover"> 
            <div class="kl-bg-source znParallax-background">
             <div class="kl-bg-source__parallaxWrapper zn-parallaxHack--center" style="transform: translate3d(0px, 223.095px, 0px);">
-             <img class="kl-bg-source__bgimage cover-fit-img wh" src="<?php echo base_url() ?>/assets/images/portfolio-2.jpg" />
+             <img class="kl-bg-source__bgimage cover-fit-img wh" src="<?php echo base_url() ?><?php echo $this->config->item('about_groupImg','home') ?>" />
             </div>
             <div class="kl-bg-source__overlay ov-eluid9b52cf3a" style="background: rgba(18,18,50,0.45); background: -moz-linear-gradient(top,  rgba(18,18,50,0.45) 0%, rgba(166,152,113,0.49) 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(18,18,50,0.45)), color-stop(100%,rgba(166,152,113,0.49))); background: -webkit-linear-gradient(top,  rgba(18,18,50,0.45) 0%,rgba(166,152,113,0.49) 100%); background: -o-linear-gradient(top,  rgba(18,18,50,0.45) 0%,rgba(166,152,113,0.49) 100%); background: -ms-linear-gradient(top,  rgba(18,18,50,0.45) 0%,rgba(166,152,113,0.49) 100%); background: linear-gradient(to bottom,  rgba(18,18,50,0.45) 0%,rgba(166,152,113,0.49) 100%); "></div>
            </div>
@@ -874,10 +874,10 @@
               <div class="znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left "> 
                <div class="znColumnElement-innerContent"> 
                 <div class="zn_text_box eluid6b2411cf  no_animation zn_text_box-light element-scheme--light">
-                 <p><span style="font-size: 22px; color: #999999;line-height: 39px;">绿野资本集团（Greenfield Capital Group）是领先的世界自由贸易生态圈缔造者（ Leading Founder of World Free Trade Ecosystem），专业从事全球范围内的自由贸易园区规划咨询、土地储备、投资开发、运营管理，以及全球投资服务和离岸金融服务。经过十年的发展，绿野资本集团基于“产业生态圈”理念，建立了以自由贸易园区产业（规划咨询、土地储备、投资开发、运营管理）为龙头、产业地产为主体、全球投资服务和离岸金融服务为两翼的全产业链生态圈业务模式，并形成了绿野加勒比、绿野欧洲、绿野北美、绿野中东、绿野大中华五个区域业务集群。</span></p> 
+                 <p><span style="font-size: 22px; color: #999999;line-height: 39px;"><?php echo $this->config->item('about_group','home') ?></span></p> 
                 </div>
                 <div class="zn_buttons_element eluidd5d6fd3a text-center  no_animation">
-                 <a href="http://www.gfchina.net/survey/" id="eluidd5d6fd3a0" class="eluidd5d6fd3a0 btn-element btn-element-0 btn  btn-lined btn-custom-color btn-md  zn_dummy_value btn-icon--after btn--rounded" title="关于绿野集团" target="_self" itemprop="url" style="background: #fff;"><span>了解更多></span><span class="btn-element-icon" data-zniconfam="glyphicons_halflingsregular" ></span></a>
+                 <a href="<?php echo site_url('overview') ?>" id="eluidd5d6fd3a0" class="eluidd5d6fd3a0 btn-element btn-element-0 btn  btn-lined btn-custom-color btn-md  zn_dummy_value btn-icon--after btn--rounded" title="<?php echo $this->config->item('sitename','home') ?>" target="_self" itemprop="url" style="background: #fff;"><span>了解更多></span><span class="btn-element-icon" data-zniconfam="glyphicons_halflingsregular" ></span></a>
                 </div> 
                </div> 
               </div> 
@@ -902,46 +902,29 @@
            <h4 class="tbk__subtitle" itemprop="alternativeHeadline">Core Business</h4>
            <span class="tbk__symbol "><span></span></span>
           </div>
+
+          <?php if($this->config->item('core_business','home')!=''){
+            $core_business=unserialize($this->config->item('core_business','home'));
+
+            foreach ($core_business as $key => $value) {
+               foreach ($value as $k => $va) {
+                 
+               
+            
+           ?>
           <div class="zn_hover_box  no_animation">
            <a href="#" style="" class="hover-box u-trans-all-2s zn_fill_class hover-box-2 eluid8fe126c2" target="_self" itemprop="url">
-            <svg class="hb-circle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="187px" height="187px" viewbox="0 0 187 187"> 
+            <svg class="hb-circle"  width="187px" height="187px" viewbox="0 0 187 187"> 
              <circle stroke="#FFFFFF" fill="none" stroke-width="2" cx="93.5" cy="93.5" r="90.5"></circle> 
              <path d="M117.004,93 L115.594,94.388 L79.412,130.004 L78.002,128.616 L114.185,93 L78.002,57.384 L79.412,55.996 L115.594,91.612 L117.004,93 L117.004,93 Z" fill="#FFFFFF"></path> 
-            </svg><h3 class="hover-box-title" style="" itemprop="headline"> 绿野世界自由贸易业务集群</h3>
+            </svg><h3 class="hover-box-title" style="" itemprop="headline"><?php echo $k; ?></h3>
             <div class="hover-box__content hover-box-content">
-             绿野世界自由贸易业务集群秉承产业生态圈投资理念，聚集于自由贸易区产业的全产业链业务
+            <?php echo $va; ?>
             </div></a>
           </div>
-          <div class="zn_hover_box  no_animation">
-           <a href="#" style="" class="hover-box u-trans-all-2s zn_fill_class hover-box-2 eluid8de093a4" target="_self" itemprop="url">
-            <svg class="hb-circle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="187px" height="187px" viewbox="0 0 187 187"> 
-             <circle stroke="#FFFFFF" fill="none" stroke-width="2" cx="93.5" cy="93.5" r="90.5"></circle> 
-             <path d="M117.004,93 L115.594,94.388 L79.412,130.004 L78.002,128.616 L114.185,93 L78.002,57.384 L79.412,55.996 L115.594,91.612 L117.004,93 L117.004,93 Z" fill="#FFFFFF"></path> 
-            </svg><h3 class="hover-box-title" style="" itemprop="headline">绿野全球投资服务业务集群</h3>
-            <div class="hover-box__content hover-box-content">
-             绿野全球投资服务业务集群是经有关国家批准，联合所在国家的政府部门、投资项目方、律师会计师发起组建、专门为投资者提供投资服务的专业投资促进和服务机构
-            </div></a>
-          </div>
-          <div class="zn_hover_box  no_animation">
-           <a href="#" style="" class="hover-box u-trans-all-2s zn_fill_class hover-box-2 eluidb1d0b4e1" target="_self" itemprop="url">
-            <svg class="hb-circle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="187px" height="187px" viewbox="0 0 187 187"> 
-             <circle stroke="#FFFFFF" fill="none" stroke-width="2" cx="93.5" cy="93.5" r="90.5"></circle> 
-             <path d="M117.004,93 L115.594,94.388 L79.412,130.004 L78.002,128.616 L114.185,93 L78.002,57.384 L79.412,55.996 L115.594,91.612 L117.004,93 L117.004,93 Z" fill="#FFFFFF"></path> 
-            </svg><h3 class="hover-box-title" style="" itemprop="headline">绿野离岸金融服务业务集群</h3>
-            <div class="hover-box__content hover-box-content">
-             绿野离岸金融服务业务集群包括三大板块：金融机构业务；离岸基金业务；离岸公司服务
-            </div></a>
-          </div>
-          <div class="zn_hover_box  no_animation">
-           <a href="#" style="" class="hover-box u-trans-all-2s zn_fill_class hover-box-2 eluid6249414e" target="_self" itemprop="url">
-            <svg class="hb-circle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="187px" height="187px" viewbox="0 0 187 187"> 
-             <circle stroke="#FFFFFF" fill="none" stroke-width="2" cx="93.5" cy="93.5" r="90.5"></circle> 
-             <path d="M117.004,93 L115.594,94.388 L79.412,130.004 L78.002,128.616 L114.185,93 L78.002,57.384 L79.412,55.996 L115.594,91.612 L117.004,93 L117.004,93 Z" fill="#FFFFFF"></path> 
-            </svg><h3 class="hover-box-title" style="" itemprop="headline">绿野产业地产服务业务集群</h3>
-            <div class="hover-box__content hover-box-content">
-             绿野产业地产服务业务集群包括四大板块：世界自由贸易中心；海外上市加速器；国际高尔夫度假村;亚马逊电商物流园
-            </div></a>
-          </div> 
+         
+          
+          <?php }}}?>
          </div> 
         </div> 
        </div> 
@@ -952,11 +935,15 @@
         </div> 
        </div> 
        <div class="eluidecb6c079  no_animation     col-md-5 col-sm-5   znColumnElement" id="eluidecb6c079"> 
-        <div class="znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-center znColumnElement-innerWrapper--halign-center znParallax-object" data-zn-parallax-obj="{";scene";:{";triggerHook";:";onEnter";,";triggerElement";:";.eluidecb6c079 &gt; .znColumnElement-innerWrapper";,";duration";:";force_full";},";tween";:{";speed";:0.8,";reverse";:";false";,";css";:{";y";:{";from";:-100,";to";:100}},";easing";:";Power1.easeOut";}}"> 
+        <div class="znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-center znColumnElement-innerWrapper--halign-center znParallax-object" data-zn-parallax-obj="{";scene";:{";triggerHook";:";onEnter";,";triggerElement";:";.eluidecb6c079 &gt; .znColumnElement-innerWrapper";,";duration";:";force_full";},";tween";:{";speed";:0.8,";reverse";:";false";,";css";:{";y";:{";from";:-100,";to";:100}},";easing";:";Power1.easeOut";}}">
+
+        <?php if($this->config->item('core_businessImg','home')!=''){
+             $core_businessImg=explode(',',$this->config->item('core_businessImg','home'));
+          } ?>
          <div class="znColumnElement-innerContent"> 
           <div class="media-container eluid930fd003  no_animation media-container--type- kl-overlay-none znBoxShadow-2 "> 
            <div class="kl-bg-source ">
-            <div class="kl-bg-source__bgimage" style="background-image:url(<?php echo base_url() ?>/assets/images/6.jpg);background-repeat:repeat;background-attachment:scroll;background-position:center center;background-size:cover"></div>
+            <div class="kl-bg-source__bgimage" style="background-image:url(<?php echo base_url().$core_businessImg[0] ?>);background-repeat:repeat;background-attachment:scroll;background-position:center center;background-size:cover"></div>
            </div> 
           </div> 
           <div class="zn_custom_container eluid3eb5bf82  no_animation smart-cnt--default   clearfix"> 
@@ -966,7 +953,7 @@
               <div class="znColumnElement-innerContent"> 
                <div class="media-container eluid1f7f0e3f  no_animation media-container--type- kl-overlay-none znBoxShadow-6  znParallax-object" data-zn-parallax-obj="{";scene";:{";triggerHook";:";onEnter";,";triggerElement";:";.eluid1f7f0e3f";,";duration";:";force_full";},";tween";:{";speed";:0.5,";reverse";:";true";,";css";:{";y";:{";from";:-50,";to";:50}},";easing";:";Power0.easeOut";}}"> 
                 <div class="kl-bg-source ">
-                 <div class="kl-bg-source__bgimage" style="background-image:url(<?php echo base_url() ?>/assets/images/5.jpg);background-repeat:repeat;background-attachment:scroll;background-position:center center;background-size:cover"></div>
+                 <div class="kl-bg-source__bgimage" style="background-image:url(<?php echo base_url() .$core_businessImg[1] ?>);background-repeat:repeat;background-attachment:scroll;background-position:center center;background-size:cover"></div>
                 </div> 
                </div> 
               </div> 

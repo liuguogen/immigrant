@@ -49,10 +49,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
-$route['default_controller'] = 'index_controller/index';
-$route['overview'] = 'index_controller/groupOverview';
-$route['business'] = 'index_controller/business';//核心业务
-$route['globalLayout'] ='index_controller/globalLayout';//全球布局
-$route['contactus'] = 'index_controller/contactUs';//联系我们
+$route['default_controller'] = 'Index_controller/index';
+$route['overview'] = 'Index_controller/groupOverview';//集团概况
+$route['business'] = 'Index_controller/business';//核心业务
+$route['globalLayout'] = 'Index_controller/globalLayout';//全球布局
+$route['contactus'] = 'Index_controller/contactUs';//联系我们
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
