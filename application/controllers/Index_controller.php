@@ -22,7 +22,7 @@ class Index_controller extends CI_Controller {
 
 	public function __construct() {
 		parent::__construct();
-		$data=$this->home_model->getRow('*','setting');
+		$data=$this->Home_model->getRow('*','setting');
 		$this->config->set_item('home',$data);
 		
 	}
