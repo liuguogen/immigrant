@@ -35,8 +35,8 @@
               </ul> </li>  -->
              <li id="menu-item-146" class="main-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-146  main-menu-item-top  menu-item-even menu-item-depth-0"><a href="<?php echo site_url('business') ?>" class=" main-menu-link main-menu-link-top"><span>核心战略</span></a></li> 
              <li id="menu-item-147" class="main-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-147  main-menu-item-top  menu-item-even menu-item-depth-0"><a href="<?php echo site_url('business') ?>" class=" main-menu-link main-menu-link-top"><span>核心业务</span></a></li> 
-             <li id="menu-item-150" class="main-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-148  main-menu-item-top  menu-item-even menu-item-depth-0"><a href="<?php echo site_url('news') ?>" class=" main-menu-link main-menu-link-top"><span>集团新闻</span></a></li> 
-             <li id="menu-item-148" class="main-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-148  main-menu-item-top  menu-item-even menu-item-depth-0"><a href="<?php echo site_url('globalLayout') ?>" class=" main-menu-link main-menu-link-top"><span>全球布局</span></a></li> 
+             
+             <li id="menu-item-148" class="main-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-148  main-menu-item-top  menu-item-even menu-item-depth-0"><a href="<?php echo site_url('news') ?>" class=" main-menu-link main-menu-link-top"><span>集团新闻</span></a></li> 
              <li id="menu-item-149" class="main-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-149  main-menu-item-top  menu-item-even menu-item-depth-0"><a href="<?php echo site_url('contactus') ?>" class=" main-menu-link main-menu-link-top"><span>联系我们</span></a></li> 
             </ul>
            </div> 

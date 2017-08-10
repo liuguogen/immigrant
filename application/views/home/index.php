@@ -1012,92 +1012,59 @@
     </section> 
     <section class="zn_section eluid7bd2291b   no_animation   section-sidemargins    section--no " id="eluid7bd2291b"> 
      <div class="zn_section_size full_width zn-section-height--auto zn-section-content_algn--top "> 
-      <div class="row "> 
-       <div class="eluid9ae8bf44      col-md-6 col-sm-6   znColumnElement" id="eluid9ae8bf44"> 
-        <div class="znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left "> 
-         <div class="znColumnElement-innerContent"> 
-          <div class="kl-title-block clearfix tbk--text- tbk--center text-center tbk-symbol--border tbk--colored tbk-icon-pos--after-subtitle eluida119788b  no_animation">
-           <h3 class="tbk__title" itemprop="headline" style="height: 35px;">全球布局</h3>
-           <h4 class="tbk__subtitle" itemprop="alternativeHeadline">Globalization</h4>
-           <span class="tbk__symbol "><span></span></span>
-          </div> 
-          <div class="grid-ibx grid-ibx--cols-5 grid-ibx--md-cols-3 grid-ibx--sm-cols-2 grid-ibx--xs-cols-1 grid-ibx--style-lined-center grid-ibx--hover-shadow eluid356e9f85  no_animation grid-ibx--theme-light element-scheme--light grid-ibx__flt- znBoxShadow-6 "> 
-           <div class="grid-ibx__inner"> 
-            <div class="grid-ibx__row clearfix"> 
-             <div class="grid-ibx__item  grid-ibx__item--type-img text-center grid-ibx__item-0"> 
-              <div class="grid-ibx__item-inner"> 
-               <a href="http://www.51land.net" class="grid-ibx__link clearfix" target="_blank" itemprop="url"> 
-                <div class="grid-ibx__icon-wrp"> 
-                 <img class="grid-ibx__icon" src="<?php echo base_url() ?>/assets/images/North-America.png" width="60" height="60" alt="" title="North America" /> 
-                </div> 
-                <div class="grid-ibx__title-wrp"> 
-                 <h4 class="grid-ibx__title element-scheme__hdg1" itemprop="headline">北美地区</h4> 
-                </div> </a> 
-              </div> 
-             </div>
-             <!-- /.grid-ibx__item --> 
-             <div class="grid-ibx__item  grid-ibx__item--type-img text-center grid-ibx__item-1"> 
-              <div class="grid-ibx__item-inner"> 
-               <div class="grid-ibx__icon-wrp"> 
-                <img class="grid-ibx__icon" src="<?php echo base_url() ?>/assets/images/North-America.png" width="60" height="60" alt="" title="china" /> 
-               </div> 
-               <div class="grid-ibx__title-wrp"> 
-                <h4 class="grid-ibx__title element-scheme__hdg1" itemprop="headline">大中华地区</h4> 
-               </div> 
-              </div> 
-             </div>
-             <!-- /.grid-ibx__item --> 
-             <div class="grid-ibx__item  grid-ibx__item--type-img text-center grid-ibx__item-2"> 
-              <div class="grid-ibx__item-inner"> 
-               <a href="http://www.gfeur.com/" class="grid-ibx__link clearfix" target="_blank" itemprop="url"> 
-                <div class="grid-ibx__icon-wrp"> 
-                 <img class="grid-ibx__icon" src="<?php echo base_url() ?>/assets/images/North-America.png" width="60" height="60" alt="" title="Europe" /> 
-                </div> 
-                <div class="grid-ibx__title-wrp"> 
-                 <h4 class="grid-ibx__title element-scheme__hdg1" itemprop="headline">欧洲地区</h4> 
-                </div> </a> 
-              </div> 
-             </div>
-             <!-- /.grid-ibx__item --> 
-             <div class="grid-ibx__item  grid-ibx__item--type-img text-center grid-ibx__item-3"> 
-              <div class="grid-ibx__item-inner"> 
-               <a href="http://www.cariftz.org/" class="grid-ibx__link clearfix" target="_blank" itemprop="url"> 
-                <div class="grid-ibx__icon-wrp"> 
-                 <img class="grid-ibx__icon" src="<?php echo base_url() ?>/assets/images/North-America.png" width="60" height="60" alt="" title="Caribbean coast" /> 
-                </div> 
-                <div class="grid-ibx__title-wrp"> 
-                 <h4 class="grid-ibx__title element-scheme__hdg1" itemprop="headline">加勒比海</h4> 
-                </div> </a> 
-              </div> 
-             </div>
-             <!-- /.grid-ibx__item --> 
-             <div class="grid-ibx__item  grid-ibx__item--type-img text-center grid-ibx__item-4"> 
-              <div class="grid-ibx__item-inner"> 
-               <div class="grid-ibx__icon-wrp"> 
-                <img class="grid-ibx__icon" src="<?php echo base_url() ?>/assets/images/North-America.png" width="60" height="56" alt="" title="the Middle East" /> 
-               </div> 
-               <div class="grid-ibx__title-wrp"> 
-                <h4 class="grid-ibx__title element-scheme__hdg1" itemprop="headline">中东地区</h4> 
-               </div> 
-              </div> 
-             </div>
-             <!-- /.grid-ibx__item --> 
-            </div>
-            <!-- /.grid-ibx__row --> 
-           </div> 
-          </div>
-          <!-- /.grid-ibx --> 
-         </div> 
+
+        <div class="kl-title-block clearfix tbk--text- tbk--center text-center tbk-symbol--border tbk--colored tbk-icon-pos--after-subtitle eluid44444aa2  no_animation">
+             <h3 class="tbk__title" itemprop="headline" style="height: 35px;">新闻中心</h3>
+             <h4 class="tbk__subtitle" itemprop="alternativeHeadline">News</h4>
+             <span class="tbk__symbol "><span></span></span>
         </div> 
-       </div> 
+      <div class="row "> 
        <div class="eluid3862cf61  no_animation     col-md-6 col-sm-6   znColumnElement" id="eluid3862cf61"> 
         <div class="znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left "> 
          <div class="znColumnElement-innerContent"> 
-          <div class="kl-title-block clearfix tbk--text- tbk--center text-center tbk-symbol--border tbk--colored tbk-icon-pos--after-subtitle eluid44444aa2  no_animation">
+         <!--  <div class="kl-title-block clearfix tbk--text- tbk--center text-center tbk-symbol--border tbk--colored tbk-icon-pos--after-subtitle eluid44444aa2  no_animation">
            <h3 class="tbk__title" itemprop="headline" style="height: 35px;">新闻中心</h3>
            <h4 class="tbk__subtitle" itemprop="alternativeHeadline">News</h4>
            <span class="tbk__symbol "><span></span></span>
+          </div>  -->
+          <div class=" latest_posts style2 latest_posts--style3 latest_posts3 eluid52019816  latestposts3--light element-scheme--light"> 
+           <h3 class="m_title m_title_ext text-custom latest_posts3-elm-title" itemprop="headline"></h3> 
+           <ul class="posts latest_posts3-posts"> 
+            <li class="post latest_posts3-post">
+             <div class="details latest_posts3-post-details">
+              <span class="date latest_posts3-post-details-det latest_posts3-post-date">31/05/2017</span>
+              <span class="cat latest_posts3-post-details-det atest_posts3-post-cat">in <a href="http://www.gfchina.net/category/group-news/" rel="category tag">集团动态</a></span>
+             </div><h4 class="title latest_posts3-title" itemprop="headline"><a class="latest_posts3-title-link" href="http://www.gfchina.net/2017/05/greenfield-group-representatives-visit-antigua-prime-minister/">绿野资本集团代表受邀访问安提瓜总理府 达成多项共识</a></h4>
+             <div class="text latest_posts3-post-text">
+              应安提瓜和巴布达总理贾斯顿布朗阁下邀请，绿野资本集团董事局主席兼首席经济学家郑晓军教授率领的代表团一行于5月3...
+             </div>
+             <div class="clearfix"></div></li>
+            <li class="post latest_posts3-post">
+             <div class="details latest_posts3-post-details">
+              <span class="date latest_posts3-post-details-det latest_posts3-post-date">14/04/2017</span>
+              <span class="cat latest_posts3-post-details-det atest_posts3-post-cat">in <a href="http://www.gfchina.net/category/%e6%9c%aa%e5%88%86%e7%b1%bb/" rel="category tag">未分类</a>, <a href="http://www.gfchina.net/category/group-news/" rel="category tag">集团动态</a></span>
+             </div><h4 class="title latest_posts3-title" itemprop="headline"><a class="latest_posts3-title-link" href="http://www.gfchina.net/2017/04/prime-minister-dominica-visits-green-capital-group/">多米尼克总理到访绿野资本集团 达成多项合作协议</a></h4>
+             <div class="text latest_posts3-post-text">
+              2017年4月11日上午，多米尼克国总理罗斯福&middot;斯凯里特一行到加勒比投资自由贸易区投资移民局上海办公室，、加勒...
+             </div>
+             <div class="clearfix"></div></li> 
+           </ul> 
           </div> 
+          <!-- end // latest posts style 2 --> 
+         </div> 
+        </div> 
+       </div> 
+
+
+
+       <div class="eluid3862cf61  no_animation     col-md-6 col-sm-6   znColumnElement" id="eluid3862cf61"> 
+        <div class="znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left "> 
+         <div class="znColumnElement-innerContent"> 
+          <!-- <div class="kl-title-block clearfix tbk--text- tbk--center text-center tbk-symbol--border tbk--colored tbk-icon-pos--after-subtitle eluid44444aa2  no_animation">
+           <h3 class="tbk__title" itemprop="headline" style="height: 35px;">新闻中心</h3>
+           <h4 class="tbk__subtitle" itemprop="alternativeHeadline">News</h4>
+           <span class="tbk__symbol "><span></span></span>
+          </div>  -->
           <div class=" latest_posts style2 latest_posts--style3 latest_posts3 eluid52019816  latestposts3--light element-scheme--light"> 
            <h3 class="m_title m_title_ext text-custom latest_posts3-elm-title" itemprop="headline"></h3> 
            <ul class="posts latest_posts3-posts"> 
