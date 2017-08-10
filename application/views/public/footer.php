@@ -56,7 +56,7 @@
     </section> 
     <section class="zn_section eluid01fc6d44   no_animation   section-sidemargins    zn_section--relative section--no " id="eluid4e5ab6e4"> 
      <div class="kl-bg-source ">
-      <div class="kl-bg-source__bgimage" style="background-image:url(<?php echo base_url() ?>/assets/images/footerbg.png);background-repeat:no-repeat;background-attachment:scroll;background-position:center center;background-size:cover"></div>
+      <div class="kl-bg-source__bgimage" style="background-image:url(<?php echo base_url() ?>assets/images/footerbg.png);background-repeat:no-repeat;background-attachment:scroll;background-position:center center;background-size:cover"></div>
       <div class="kl-bg-source__overlay " style="background-color:rgba(99,99,99,0.3)"></div>
      </div> 
      <div class="zn_section_size full_width zn-section-height--auto zn-section-content_algn--top "> 

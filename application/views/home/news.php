@@ -4,21 +4,21 @@
   <meta charset="UTF-8" /> 
   <meta name="twitter:widgets:csp" content="on" /> 
   <title>集团动态 – 绿野资本集团</title> 
-  <link rel="stylesheet"  href="<?php echo base_url() ?>/assets/css/style.css" type="text/css" media="all" /> 
-  <link rel="stylesheet"  href="<?php echo base_url() ?>/assets/css/bootstrap.min.css" type="text/css" media="all" /> 
-  <link rel="stylesheet"  href="<?php echo base_url() ?>/assets/css/template.min.css" type="text/css" media="all" /> 
-  <link rel="stylesheet"  href="<?php echo base_url() ?>/assets/css/settings.css" type="text/css" media="all" /> 
-  <link rel="stylesheet"  href="<?php echo base_url() ?>/assets/css/layout.css" type="text/css" media="all" /> 
-  <link rel="stylesheet"  href="<?php echo base_url() ?>/assets/css/print.css" type="text/css" media="print" /> 
-  <link rel="stylesheet"  href="<?php echo base_url() ?>/assets/css/animate.min.css" type="text/css" media="all" /> 
-  <link rel="stylesheet"  href="<?php echo base_url() ?>/assets/css/zn_dynamic.css" type="text/css" media="all" /> 
-  <script type="text/javascript" src="<?php echo base_url() ?>/assets/js/jquery.js"></script> 
-  <script type="text/javascript" src="<?php echo base_url() ?>/assets/js/jquery-migrate.min.js"></script> 
-  <script type="text/javascript" src="<?php echo base_url() ?>/assets/js/jquery.themepunch.tools.min.js"></script> 
-  <script type="text/javascript" src="<?php echo base_url() ?>/assets/js/jquery.themepunch.revolution.min.js"></script> 
-  <script type="text/javascript" src="<?php echo base_url() ?>/assets/js/wow.js"></script> 
-  <link rel="stylesheet" href="<?php echo base_url() ?>/assets/css/min.css" type="text/css" /> 
-  <script type="text/javascript" src="<?php echo base_url() ?>/assets/js/js.js"></script>
+  <link rel="stylesheet"  href="<?php echo base_url() ?>assets/css/style.css" type="text/css" media="all" /> 
+  <link rel="stylesheet"  href="<?php echo base_url() ?>assets/css/bootstrap.min.css" type="text/css" media="all" /> 
+  <link rel="stylesheet"  href="<?php echo base_url() ?>assets/css/template.min.css" type="text/css" media="all" /> 
+  <link rel="stylesheet"  href="<?php echo base_url() ?>assets/css/settings.css" type="text/css" media="all" /> 
+  <link rel="stylesheet"  href="<?php echo base_url() ?>assets/css/layout.css" type="text/css" media="all" /> 
+  <link rel="stylesheet"  href="<?php echo base_url() ?>assets/css/print.css" type="text/css" media="print" /> 
+  <link rel="stylesheet"  href="<?php echo base_url() ?>assets/css/animate.min.css" type="text/css" media="all" /> 
+  <link rel="stylesheet"  href="<?php echo base_url() ?>assets/css/zn_dynamic.css" type="text/css" media="all" /> 
+  <script type="text/javascript" src="<?php echo base_url() ?>assets/js/jquery.js"></script> 
+  <script type="text/javascript" src="<?php echo base_url() ?>assets/js/jquery-migrate.min.js"></script> 
+  <script type="text/javascript" src="<?php echo base_url() ?>assets/js/jquery.themepunch.tools.min.js"></script> 
+  <script type="text/javascript" src="<?php echo base_url() ?>assets/js/jquery.themepunch.revolution.min.js"></script> 
+  <script type="text/javascript" src="<?php echo base_url() ?>assets/js/wow.js"></script> 
+  <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/min.css" type="text/css" /> 
+  <script type="text/javascript" src="<?php echo base_url() ?>assets/js/js.js"></script>
   <meta name="theme-color" content="#a69871" /> 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
 
@@ -213,10 +213,6 @@
    </section>
    <?php $this->load->view('public/footer') ?>
   <a href="#" id="totop" class="u-trans-all-2s js-scroll-event" data-forch="300" data-visibleclass="on--totop">TOP</a> 
-  <script type="text/javascript" src="http://www.gfchina.net/wp-content/themes/kallyas/js/plugins.min.js?ver=4.11.0"></script> 
-  <script type="text/javascript" src="http://www.gfchina.net/wp-content/themes/kallyas/addons/scrollmagic/scrollmagic-tweenlite.js?ver=4.11.0"></script> 
-  <script type="text/javascript" src="http://www.gfchina.net/wp-content/themes/kallyas/js/znscript.min.js?ver=4.11.0"></script> 
-  <script type="text/javascript" src="http://www.gfchina.net/wp-content/themes/kallyas/addons/slick/slick.min.js?ver=4.11.0"></script> 
-  <script type="text/javascript" src="http://www.gfchina.net/wp-includes/js/wp-embed.min.js?ver=4.8.1"></script>   
+  <?php $this->load->view('public/footerJs') ?>
  </body>
 </html>

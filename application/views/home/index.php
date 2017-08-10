@@ -4,23 +4,23 @@
   <meta charset="UTF-8" /> 
   <meta name="twitter:widgets:csp" content="on" /> 
   <title><?php echo $this->config->item('sitename','home') ?></title> 
-  <link rel="stylesheet"  href="<?php echo base_url() ?>/assets/css/style.css" type="text/css" media="all" /> 
-  <link rel="stylesheet"  href="<?php echo base_url() ?>/assets/css/bootstrap.min.css" type="text/css" media="all" /> 
-  <link rel="stylesheet"  href="<?php echo base_url() ?>/assets/css/template.min.css" type="text/css" media="all" /> 
-  <link rel="stylesheet"  href="<?php echo base_url() ?>/assets/css/settings.css" type="text/css" media="all" /> 
+  <link rel="stylesheet"  href="<?php echo base_url() ?>assets/css/style.css" type="text/css" media="all" /> 
+  <link rel="stylesheet"  href="<?php echo base_url() ?>assets/css/bootstrap.min.css" type="text/css" media="all" /> 
+  <link rel="stylesheet"  href="<?php echo base_url() ?>assets/css/template.min.css" type="text/css" media="all" /> 
+  <link rel="stylesheet"  href="<?php echo base_url() ?>assets/css/settings.css" type="text/css" media="all" /> 
   
-  <link rel="stylesheet"  href="<?php echo base_url() ?>/assets/css/layout.css" type="text/css" media="all" /> 
-  <link rel="stylesheet"  href="<?php echo base_url() ?>/assets/css/print.css" type="text/css" media="print" /> 
-  <link rel="stylesheet"  href="<?php echo base_url() ?>/assets/css/animate.min.css" type="text/css" media="all" /> 
-  <link rel="stylesheet"  href="<?php echo base_url() ?>/assets/css/zn_dynamic.css" type="text/css" media="all" /> 
-  <script type="text/javascript" src="<?php echo base_url() ?>/assets/js/jquery.js"></script> 
-  <script type="text/javascript" src="<?php echo base_url() ?>/assets/js/jquery-migrate.min.js"></script> 
-  <script type="text/javascript" src="<?php echo base_url() ?>/assets/js/jquery.themepunch.tools.min.js"></script> 
-  <script type="text/javascript" src="<?php echo base_url() ?>/assets/js/jquery.themepunch.revolution.min.js"></script> 
-  <script type="text/javascript" src="<?php echo base_url() ?>/assets/js/wow.js"></script> 
-  <link rel="stylesheet" href="<?php echo base_url() ?>/assets/css/min.css" type="text/css" /> 
+  <link rel="stylesheet"  href="<?php echo base_url() ?>assets/css/layout.css" type="text/css" media="all" /> 
+  <link rel="stylesheet"  href="<?php echo base_url() ?>assets/css/print.css" type="text/css" media="print" /> 
+  <link rel="stylesheet"  href="<?php echo base_url() ?>assets/css/animate.min.css" type="text/css" media="all" /> 
+  <link rel="stylesheet"  href="<?php echo base_url() ?>assets/css/zn_dynamic.css" type="text/css" media="all" /> 
+  <script type="text/javascript" src="<?php echo base_url() ?>assets/js/jquery.js"></script> 
+  <script type="text/javascript" src="<?php echo base_url() ?>assets/js/jquery-migrate.min.js"></script> 
+  <script type="text/javascript" src="<?php echo base_url() ?>assets/js/jquery.themepunch.tools.min.js"></script> 
+  <script type="text/javascript" src="<?php echo base_url() ?>assets/js/jquery.themepunch.revolution.min.js"></script> 
+  <script type="text/javascript" src="<?php echo base_url() ?>assets/js/wow.js"></script> 
+  <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/min.css" type="text/css" /> 
 
-  <script type="text/javascript" src="<?php echo base_url() ?>/assets/js/js.js"></script>
+  <script type="text/javascript" src="<?php echo base_url() ?>assets/js/js.js"></script>
   <meta name="theme-color" content="#a69871" /> 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
   <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style> 
@@ -774,7 +774,7 @@
               <div class="grid-ibx__item-inner"> 
                <a href="#" class="grid-ibx__link clearfix" target="_self" itemprop="url"> 
                 <div class="grid-ibx__icon-wrp"> 
-                 <img class="grid-ibx__icon" src="<?php echo base_url() ?>/assets/images/team.png" width="50" height="50" alt="" title="team" /> 
+                 <img class="grid-ibx__icon" src="<?php echo base_url() ?>assets/images/team.png" width="50" height="50" alt="" title="team" /> 
                 </div> 
                 <div class="grid-ibx__title-wrp"> 
                  <h4 class="grid-ibx__title element-scheme__hdg1" itemprop="headline">团队管理</h4> 
@@ -790,7 +790,7 @@
               <div class="grid-ibx__item-inner"> 
                <a href="#" class="grid-ibx__link clearfix" target="_self" itemprop="url"> 
                 <div class="grid-ibx__icon-wrp"> 
-                 <img class="grid-ibx__icon" src="<?php echo base_url() ?>/assets/images/company.png" width="50" height="50" alt="" title="company" /> 
+                 <img class="grid-ibx__icon" src="<?php echo base_url() ?>assets/images/company.png" width="50" height="50" alt="" title="company" /> 
                 </div> 
                 <div class="grid-ibx__title-wrp"> 
                  <h4 class="grid-ibx__title element-scheme__hdg1" itemprop="headline">集团优势</h4> 
@@ -806,7 +806,7 @@
               <div class="grid-ibx__item-inner"> 
                <a href="#" class="grid-ibx__link clearfix" target="_self" itemprop="url"> 
                 <div class="grid-ibx__icon-wrp"> 
-                 <img class="grid-ibx__icon" src="<?php echo base_url() ?>/assets/images/business.png" width="50" height="50" alt="" title="business" /> 
+                 <img class="grid-ibx__icon" src="<?php echo base_url() ?>assets/images/business.png" width="50" height="50" alt="" title="business" /> 
                 </div> 
                 <div class="grid-ibx__title-wrp"> 
                  <h4 class="grid-ibx__title element-scheme__hdg1" itemprop="headline">集团业务</h4> 
@@ -982,16 +982,16 @@
             <div class="ts-pt-partners__carousel-wrapper"> 
              <div class="ts-pt-partners__carousel"> 
               <div class="ts-pt-partners__carousel-item"> 
-               <img class="ts-pt-partners__img img-responsive" src="<?php echo base_url() ?>/assets/images/jlbzmq.png" width="402" height="100" alt="" title="jlbzmq" /> 
+               <img class="ts-pt-partners__img img-responsive" src="<?php echo base_url() ?>assets/images/jlbzmq.png" width="402" height="100" alt="" title="jlbzmq" /> 
               </div> 
               <div class="ts-pt-partners__carousel-item"> 
-               <img class="ts-pt-partners__img img-responsive" src="<?php echo base_url() ?>/assets/images/jlbzmq.png" width="273" height="100" alt="" title="amazon_logo-g" /> 
+               <img class="ts-pt-partners__img img-responsive" src="<?php echo base_url() ?>assets/images/jlbzmq.png" width="273" height="100" alt="" title="amazon_logo-g" /> 
               </div> 
               <div class="ts-pt-partners__carousel-item"> 
-               <img class="ts-pt-partners__img img-responsive" src="<?php echo base_url() ?>/assets/images/ARISTO_LOGO.png" width="276" height="100" alt="" title="VIRGINAMERICALOGO" /> 
+               <img class="ts-pt-partners__img img-responsive" src="<?php echo base_url() ?>assets/images/ARISTO_LOGO.png" width="276" height="100" alt="" title="VIRGINAMERICALOGO" /> 
               </div> 
               <div class="ts-pt-partners__carousel-item"> 
-               <img class="ts-pt-partners__img img-responsive" src="<?php echo base_url() ?>/assets/images/ARISTO_LOGO.png" width="276" height="100" alt="" title="VIRGINAMERICALOGO" /> 
+               <img class="ts-pt-partners__img img-responsive" src="<?php echo base_url() ?>assets/images/ARISTO_LOGO.png" width="276" height="100" alt="" title="VIRGINAMERICALOGO" /> 
               </div> 
              
               
@@ -1153,12 +1153,6 @@
 					jQuery(sliderID).show().html(errorMessage);
 			}
 		</script> 
-  <script type="text/javascript" src="http://www.gfchina.net/wp-content/themes/kallyas/js/plugins.min.js?ver=4.11.0"></script> 
-  <script type="text/javascript" src="http://www.gfchina.net/wp-content/themes/kallyas/addons/scrollmagic/scrollmagic-tweenlite.js?ver=4.11.0"></script> 
-
-  
-  <script type="text/javascript" src="http://www.gfchina.net/wp-content/themes/kallyas/js/znscript.min.js?ver=4.11.0"></script> 
-  <script type="text/javascript" src="http://www.gfchina.net/wp-content/themes/kallyas/addons/slick/slick.min.js?ver=4.11.0"></script> 
-  <script type="text/javascript" src="http://www.gfchina.net/wp-includes/js/wp-embed.min.js?ver=4.8.1"></script>   
+  <?php $this->load->view('public/footerJs') ?>
  </body>
 </html>
