@@ -1039,15 +1039,7 @@
               应安提瓜和巴布达总理贾斯顿布朗阁下邀请，绿野资本集团董事局主席兼首席经济学家郑晓军教授率领的代表团一行于5月3...
              </div>
              <div class="clearfix"></div></li>
-            <li class="post latest_posts3-post">
-             <div class="details latest_posts3-post-details">
-              <span class="date latest_posts3-post-details-det latest_posts3-post-date">14/04/2017</span>
-              <span class="cat latest_posts3-post-details-det atest_posts3-post-cat">in <a href="http://www.gfchina.net/category/%e6%9c%aa%e5%88%86%e7%b1%bb/" rel="category tag">未分类</a>, <a href="http://www.gfchina.net/category/group-news/" rel="category tag">集团动态</a></span>
-             </div><h4 class="title latest_posts3-title" itemprop="headline"><a class="latest_posts3-title-link" href="http://www.gfchina.net/2017/04/prime-minister-dominica-visits-green-capital-group/">多米尼克总理到访绿野资本集团 达成多项合作协议</a></h4>
-             <div class="text latest_posts3-post-text">
-              2017年4月11日上午，多米尼克国总理罗斯福&middot;斯凯里特一行到加勒比投资自由贸易区投资移民局上海办公室，、加勒...
-             </div>
-             <div class="clearfix"></div></li> 
+           
            </ul> 
           </div> 
           <!-- end // latest posts style 2 --> 
@@ -1055,6 +1047,66 @@
         </div> 
        </div> 
 
+      
+
+      <div class="eluid3862cf61  no_animation     col-md-6 col-sm-6   znColumnElement" id="eluid3862cf61"> 
+        <div class="znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left "> 
+         <div class="znColumnElement-innerContent"> 
+         <!--  <div class="kl-title-block clearfix tbk--text- tbk--center text-center tbk-symbol--border tbk--colored tbk-icon-pos--after-subtitle eluid44444aa2  no_animation">
+           <h3 class="tbk__title" itemprop="headline" style="height: 35px;">新闻中心</h3>
+           <h4 class="tbk__subtitle" itemprop="alternativeHeadline">News</h4>
+           <span class="tbk__symbol "><span></span></span>
+          </div>  -->
+          <div class=" latest_posts style2 latest_posts--style3 latest_posts3 eluid52019816  latestposts3--light element-scheme--light"> 
+           <h3 class="m_title m_title_ext text-custom latest_posts3-elm-title" itemprop="headline"></h3> 
+           <ul class="posts latest_posts3-posts"> 
+            <li class="post latest_posts3-post">
+             <div class="details latest_posts3-post-details">
+              <span class="date latest_posts3-post-details-det latest_posts3-post-date">31/05/2017</span>
+              <span class="cat latest_posts3-post-details-det atest_posts3-post-cat">in <a href="http://www.gfchina.net/category/group-news/" rel="category tag">集团动态</a></span>
+             </div><h4 class="title latest_posts3-title" itemprop="headline"><a class="latest_posts3-title-link" href="http://www.gfchina.net/2017/05/greenfield-group-representatives-visit-antigua-prime-minister/">绿野资本集团代表受邀访问安提瓜总理府 达成多项共识</a></h4>
+             <div class="text latest_posts3-post-text">
+              应安提瓜和巴布达总理贾斯顿布朗阁下邀请，绿野资本集团董事局主席兼首席经济学家郑晓军教授率领的代表团一行于5月3...
+             </div>
+             <div class="clearfix"></div></li>
+           
+           </ul> 
+          </div> 
+          <!-- end // latest posts style 2 --> 
+         </div> 
+        </div> 
+       </div> 
+
+
+
+
+       <div class="eluid3862cf61  no_animation     col-md-6 col-sm-6   znColumnElement" id="eluid3862cf61"> 
+        <div class="znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left "> 
+         <div class="znColumnElement-innerContent"> 
+         <!--  <div class="kl-title-block clearfix tbk--text- tbk--center text-center tbk-symbol--border tbk--colored tbk-icon-pos--after-subtitle eluid44444aa2  no_animation">
+           <h3 class="tbk__title" itemprop="headline" style="height: 35px;">新闻中心</h3>
+           <h4 class="tbk__subtitle" itemprop="alternativeHeadline">News</h4>
+           <span class="tbk__symbol "><span></span></span>
+          </div>  -->
+          <div class=" latest_posts style2 latest_posts--style3 latest_posts3 eluid52019816  latestposts3--light element-scheme--light"> 
+           <h3 class="m_title m_title_ext text-custom latest_posts3-elm-title" itemprop="headline"></h3> 
+           <ul class="posts latest_posts3-posts"> 
+            <li class="post latest_posts3-post">
+             <div class="details latest_posts3-post-details">
+              <span class="date latest_posts3-post-details-det latest_posts3-post-date">31/05/2017</span>
+              <span class="cat latest_posts3-post-details-det atest_posts3-post-cat">in <a href="http://www.gfchina.net/category/group-news/" rel="category tag">集团动态</a></span>
+             </div><h4 class="title latest_posts3-title" itemprop="headline"><a class="latest_posts3-title-link" href="http://www.gfchina.net/2017/05/greenfield-group-representatives-visit-antigua-prime-minister/">绿野资本集团代表受邀访问安提瓜总理府 达成多项共识</a></h4>
+             <div class="text latest_posts3-post-text">
+              应安提瓜和巴布达总理贾斯顿布朗阁下邀请，绿野资本集团董事局主席兼首席经济学家郑晓军教授率领的代表团一行于5月3...
+             </div>
+             <div class="clearfix"></div></li>
+           
+           </ul> 
+          </div> 
+          <!-- end // latest posts style 2 --> 
+         </div> 
+        </div> 
+       </div> 
 
 
        <div class="eluid3862cf61  no_animation     col-md-6 col-sm-6   znColumnElement" id="eluid3862cf61"> 
@@ -1077,15 +1129,7 @@
               应安提瓜和巴布达总理贾斯顿布朗阁下邀请，绿野资本集团董事局主席兼首席经济学家郑晓军教授率领的代表团一行于5月3...
              </div>
              <div class="clearfix"></div></li>
-            <li class="post latest_posts3-post">
-             <div class="details latest_posts3-post-details">
-              <span class="date latest_posts3-post-details-det latest_posts3-post-date">14/04/2017</span>
-              <span class="cat latest_posts3-post-details-det atest_posts3-post-cat">in <a href="http://www.gfchina.net/category/%e6%9c%aa%e5%88%86%e7%b1%bb/" rel="category tag">未分类</a>, <a href="http://www.gfchina.net/category/group-news/" rel="category tag">集团动态</a></span>
-             </div><h4 class="title latest_posts3-title" itemprop="headline"><a class="latest_posts3-title-link" href="http://www.gfchina.net/2017/04/prime-minister-dominica-visits-green-capital-group/">多米尼克总理到访绿野资本集团 达成多项合作协议</a></h4>
-             <div class="text latest_posts3-post-text">
-              2017年4月11日上午，多米尼克国总理罗斯福&middot;斯凯里特一行到加勒比投资自由贸易区投资移民局上海办公室，、加勒...
-             </div>
-             <div class="clearfix"></div></li> 
+            
            </ul> 
           </div> 
           <!-- end // latest posts style 2 --> 
