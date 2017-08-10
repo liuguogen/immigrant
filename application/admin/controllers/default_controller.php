@@ -63,6 +63,22 @@ class Default_controller extends CI_Controller {
 				$data['core_business']=serialize($core_business);
 				unset($data['core_business_key'],$data['core_business_val']);
 			}
+			if(isset($data['contactus_key']) && isset($data['contactus_val']))
+			{
+				foreach ($data['contactus_key'] as $key => $value) {
+					foreach ($data['contactus_val'] as $k => $v) {
+						if($key==$k)
+						{
+							$contactus[]=array(
+								$value=>$v,
+								);
+						}
+					}
+				}
+				$data['contactus']=serialize($contactus);
+				unset($data['contactus_key'],$data['contactus_val']);
+			}
+
 			if(isset($data['thumb']) && $data['thumb']){
 				$data['thumb']=implode(',',$data['thumb']);
 			}
@@ -88,6 +104,7 @@ class Default_controller extends CI_Controller {
 		}else {
 			$rRow=$this->admin_model->getRow('*','setting');
 			$rRow['core_business']=$rRow['core_business'] ? unserialize($rRow['core_business']) :array();//序列化核心业务
+			$rRow['contactus']=$rRow['contactus'] ? unserialize($rRow['contactus']) :array();//序列化联系我们
 			$rRow['thumb']=$rRow['thumb']  ? explode(',',$rRow['thumb']) :array();
 			$rRow['core_businessImg']=$rRow['core_businessImg'] ? explode(',',$rRow['core_businessImg']) :array();
 			$data['data']=$rRow;

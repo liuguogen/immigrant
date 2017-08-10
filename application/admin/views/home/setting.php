@@ -167,7 +167,26 @@
                  foreach($pv as $k=>$v){
                ?>
               <span>
-                  <input type="text"  name="core_business_key[]" value="<?php echo $k; ?>" />:<textarea class="form-control" name="core_business_val[]" cols="60" rows="5"><?php echo $v; ?></textarea><span onclick="obtain_obj(this)">移除</span><br/><br/>
+                  <input type="text"  name="core_business_key[]" value="<?php echo $k; ?>" />:<textarea class="form-control" name="core_business_val[]" cols="60" rows="5"><?php echo $v; ?></textarea><span onclick="core_business_obj(this)">移除</span><br/><br/>
+              </span>
+              <?php }}}?>
+              </div>
+            </td>
+        </tr>
+
+        <tr>
+            <th>联系我们 <span style="color: red;">*</span></th>
+            <td>
+              <span><input type="button" value="添加" id="add_contactus"  /></span></br/></br/>
+
+              <div id="contactus_str"></div>
+              <div>
+              <?php if(isset($data['contactus']) && $data['contactus']){
+                foreach($data['contactus'] as $pv){
+                 foreach($pv as $k=>$v){
+               ?>
+              <span>
+                  <input type="text"  name="contactus_key[]" value="<?php echo $k; ?>" />:<textarea class="form-control" name="contactus_val[]" cols="60" rows="5"><?php echo $v; ?></textarea><span onclick="contactus_obj(this)">移除</span><br/><br/>
               </span>
               <?php }}}?>
               </div>
@@ -254,10 +273,20 @@ $("#add_core_business").on('click',function(){
     
     $("#core_business_str").append(str);
 });
+//联系我们
+$("#add_contactus").on('click',function(){
+    
+    var str='<span><input type="text"  name="contactus_key[]"  />:<textarea class="form-control" name="contactus_val[]" cols="60" rows="5"></textarea><span onclick="contactus_obj(this)">移除</span><br/><br/></span>';
+    
+    $("#contactus_str").append(str);
+});
 function study_obj(obj){
     $(obj).parent().remove();
 }
 function core_business_obj(obj){
+    $(obj).parent().remove();
+}
+function contactus_obj(obj){
     $(obj).parent().remove();
 }
 function rem_obj(obj){

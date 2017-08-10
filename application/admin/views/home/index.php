@@ -130,7 +130,7 @@
                                 
                             </ul>
                         </li>
-                        <li class="b-has-child">
+                        <!-- <li class="b-has-child">
                             <a href="#" class="dropdown-toggle b-nav-parent">
                                 <i class="fa fa-comment icon-test"></i>
                                 <span class="menu-text">学校管理</span>
@@ -171,7 +171,7 @@
                                     </li>
                                 
                             </ul>
-                        </li>
+                        </li> -->
 
                         <!-- <li class="b-has-child">
                             <a href="#" class="dropdown-toggle b-nav-parent">
@@ -190,7 +190,7 @@
                             </a>
                             
                         </li> -->
-                    <li class="b-has-child">
+                  <!--   <li class="b-has-child">
                             <a href="#" class="dropdown-toggle b-nav-parent">
                                 <i class="fa fa-bell icon-test"></i>
                                 <span class="menu-text">报名管理</span>
@@ -216,7 +216,7 @@
                                 
                             </ul>
                         </li>
-                   
+ -->                   
             </ul>
             <div class="sidebar-collapse" id="sidebar-collapse">
                 <i class="icon-double-angle-left" data-icon1="icon-double-angle-left" data-icon2="icon-double-angle-right"></i>

@@ -8,9 +8,6 @@
   <link rel="stylesheet"  href="<?php echo base_url() ?>/assets/css/bootstrap.min.css" type="text/css" media="all" /> 
   <link rel="stylesheet"  href="<?php echo base_url() ?>/assets/css/template.min.css" type="text/css" media="all" /> 
   <link rel="stylesheet"  href="<?php echo base_url() ?>/assets/css/settings.css" type="text/css" media="all" /> 
-  <style id="rs-plugin-settings-inline-css" type="text/css">
-#rs-demo-id {}
-</style> 
   <link rel="stylesheet"  href="<?php echo base_url() ?>/assets/css/185-layout.css" type="text/css" media="all" /> 
   <link rel="stylesheet"  href="<?php echo base_url() ?>/assets/css/print.css" type="text/css" media="print" /> 
   <link rel="stylesheet"  href="<?php echo base_url() ?>/assets/css/animate.min.css" type="text/css" media="all" /> 

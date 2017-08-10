@@ -1,7 +1,7 @@
 <div class="znpb-footer-smart-area"> 
     <section class="zn_section eluidc94df9a0   no_animation   section-sidemargins    zn_section--relative section--no " id="eluid30272d47"> 
      <div class="kl-bg-source ">
-      <div class="kl-bg-source__bgimage" style="background-image:url(http://www.gfchina.net/wp-content/uploads/2017/03/footerbg.png);background-repeat:no-repeat;background-attachment:scroll;background-position:center center;background-size:cover"></div>
+      <div class="kl-bg-source__bgimage" style="background-image:url(<?php echo base_url() ?>assets/images/footerbg.png);background-repeat:no-repeat;background-attachment:scroll;background-position:center center;background-size:cover"></div>
      </div> 
      <div class="zn_section_size full_width zn-section-height--auto zn-section-content_algn--top "> 
       <div class="row "> 
@@ -33,12 +33,18 @@
           </div>
           <div class="zn_text_box eluid8e6c10f7  no_animation zn_text_box-light element-scheme--light">
            <div style="color: #a69871; font-size: 16px;"> 
-            <ul> 
-             <li>热线：400-8520-860</li> 
-             <li>香港：香港中环金融街8 号国际金融中心二期19楼</li> 
-             <li>上海：青浦区涞港路181号国家会展中心B座办公楼304室</li> 
-             <li>北京：东城区建国门内大街8号中粮广场B座307/08室</li> 
-             <li>海外：Carlisle estate,St. John' s, Antigua, West Indies</li> 
+            <ul>
+            <?php if($this->config->item('contactus','home')!=''){
+            $contactus=unserialize($this->config->item('contactus','home'));
+
+            foreach ($contactus as $key => $value) {
+               foreach ($value as $k => $va) {
+                 
+               
+            
+           ?> 
+             <li><?php echo $k ?>：<?php echo $va; ?></li> 
+             <?php }}} ?>
             </ul> 
            </div> 
           </div> 

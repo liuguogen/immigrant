@@ -758,7 +758,7 @@
 }
 </style>
  </head> 
- <body class="home page-template-default page page-id-65 res1170 kl-follow-menu kl-skin--light" itemscope="itemscope" itemtype="https://schema.org/WebPage"> 
+ <body class="home page-template-default page page-id-65 res1170 kl-follow-menu kl-skin--light" itemscope="itemscope"> 
   <?php $this->load->view('public/header') ?>
   
     <section class="zn_section eluid6ccb6e28   bounceIn wow   section-sidemargins u-zindex-1   section--no " id="eluid6ccb6e28" data-wow-delay="700ms"> 

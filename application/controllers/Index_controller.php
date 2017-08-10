@@ -28,8 +28,6 @@ class Index_controller extends CI_Controller {
 	}
 	public function index()
 	{
-		//echo '<pre>';
-		//var_export($this->config->item(''));exit;
 		$this->load->view('home/index');
 	}
 	/**
@@ -56,5 +54,11 @@ class Index_controller extends CI_Controller {
 	**/
 	public function contactUs() {
 		$this->load->view('home/contactUs');
+	}
+	/**
+	**新闻中心
+	**/
+	public function news() {
+		$this->load->view('home/news');
 	}
 }
