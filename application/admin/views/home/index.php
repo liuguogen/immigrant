@@ -122,7 +122,7 @@
                                         </a>
                                     </li>
                                     <li class="b-nav-li">
-                                        <a href="<?php echo site_url('default_controller/setting') ?>" target="right_content">
+                                        <a href="<?php echo site_url('Default_controller/setting') ?>" target="right_content">
                                             <i class="icon-double-angle-right"></i>
                                             配置信息
                                         </a>
@@ -130,48 +130,26 @@
                                 
                             </ul>
                         </li>
-                        <!-- <li class="b-has-child">
+                         <li class="b-has-child">
                             <a href="#" class="dropdown-toggle b-nav-parent">
                                 <i class="fa fa-comment icon-test"></i>
-                                <span class="menu-text">学校管理</span>
+                                <span class="menu-text">新闻管理</span>
 
                                 <b class="arrow icon-angle-down"></b>
                             </a>
                             <ul class="submenu">
                                 
                                     <li class="b-nav-li">
-                                        <a href="#" target="right_content">
+                                        <a href="<?php echo site_url('Default_controller/newsList') ?>" target="right_content">
                                             <i class="icon-double-angle-right"></i>
-                                            学校列表
+                                            新闻列表
                                         </a>
                                     </li>
-                                    <li class="b-nav-li">
-                                        <a href="#" target="right_content">
-                                            <i class="icon-double-angle-right"></i>
-                                            学校详情
-                                        </a>
-                                    </li>
-                                    <li class="b-nav-li">
-                                        <a href="#" target="right_content">
-                                            <i class="icon-double-angle-right"></i>
-                                            志愿列表
-                                        </a>
-                                    </li>
-                                    <li class="b-nav-li">
-                                        <a href="#" target="right_content">
-                                            <i class="icon-double-angle-right"></i>
-                                            问答列表
-                                        </a>
-                                    </li>
-                                    <li class="b-nav-li">
-                                        <a href="#" target="right_content">
-                                            <i class="icon-double-angle-right"></i>
-                                            招生专题
-                                        </a>
-                                    </li>
+                                    
+                                   
                                 
                             </ul>
-                        </li> -->
+                        </li> 
 
                         <!-- <li class="b-has-child">
                             <a href="#" class="dropdown-toggle b-nav-parent">
