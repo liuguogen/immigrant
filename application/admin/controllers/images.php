@@ -20,7 +20,7 @@ class Images extends CI_Controller {
 			alert("只能上传图片格式");
 		}
 		
-		$rootpath	=	realpath(dirname(__FILE__) . '/../../../').'/uploads';
+		$rootpath	=	realpath(dirname(__FILE__) . '/../../../').'/uploads/';
 		$filepath	=	time().rand(1000,9999).".".$extname;
 		if (!is_uploaded_file($img['tmp_name'])){
 			alert("数据异常");
@@ -29,7 +29,7 @@ class Images extends CI_Controller {
 		if (!move_uploaded_file($img['tmp_name'],$rootpath.$filepath)){
 			alert("上传失败");
 		}
-		$basehost	=	base_url()."uploads";
+		$basehost	=	base_url()."uploads/";
 
 		//ckeditor的回调方法
 		echo "<script type=\"text/javascript\">";
