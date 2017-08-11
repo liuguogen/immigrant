@@ -28,7 +28,14 @@ class Index_controller extends CI_Controller {
 	}
 	public function index()
 	{
-		$this->load->view('home/index');
+		//获取新闻
+		$news_data=$this->Home_model->getList('*','news');
+		if($news_data) {
+			foreach ($news_data as $key => &$value) {
+				$value['content']=mb_substr($value['content'],0,58,'utf-8').'...';
+			}
+		}
+		$this->load->view('home/index',array('news_data'=>$news_data));
 	}
 	/**
 	**企业概况
@@ -59,6 +66,24 @@ class Index_controller extends CI_Controller {
 	**新闻中心
 	**/
 	public function news() {
-		$this->load->view('home/news');
+		$data['news_data']=$this->Home_model->getList('*','news',array(),0,-1,'create_time DESC');
+		$this->load->view('home/news',$data);
+	}
+	/**
+	***新闻详情
+	**/
+	public function article() {
+		$news_id=$this->uri->segment(3);
+		$data['data']=$this->Home_model->getRow('*','news',array('news_id'=>$news_id));
+		//获取全部新闻
+		$news_data=$this->Home_model->getList('news_id,title,content','news',array(),0,-1,'create_time DESC');
+		if($news_data) {
+			foreach ($news_data as $key => &$value) {
+				$value['content']=mb_substr($value['content'],0,50,'utf-8').'...';
+			}
+
+		   $data['news_data']=$news_data;
+		}
+		$this->load->view('home/article',$data);
 	}
 }

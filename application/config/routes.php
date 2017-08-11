@@ -55,5 +55,6 @@ $route['business'] = 'Index_controller/business';//核心业务
 $route['globalLayout'] = 'Index_controller/globalLayout';//全球布局
 $route['contactus'] = 'Index_controller/contactUs';//联系我们
 $route['news'] = 'Index_controller/news';//新闻中心
+$route['news/article/(:num)']='Index_controller/article/$1';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

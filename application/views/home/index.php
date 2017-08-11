@@ -1019,6 +1019,11 @@
              <span class="tbk__symbol "><span></span></span>
         </div> 
       <div class="row "> 
+
+      <?php if($news_data){
+
+        foreach($news_data as $n){
+       ?>
        <div class="eluid3862cf61  no_animation     col-md-6 col-sm-6   znColumnElement" id="eluid3862cf61"> 
         <div class="znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left "> 
          <div class="znColumnElement-innerContent"> 
@@ -1032,11 +1037,11 @@
            <ul class="posts latest_posts3-posts"> 
             <li class="post latest_posts3-post">
              <div class="details latest_posts3-post-details">
-              <span class="date latest_posts3-post-details-det latest_posts3-post-date">31/05/2017</span>
-              <span class="cat latest_posts3-post-details-det atest_posts3-post-cat">in <a href="http://www.gfchina.net/category/group-news/" rel="category tag">集团动态</a></span>
-             </div><h4 class="title latest_posts3-title" itemprop="headline"><a class="latest_posts3-title-link" href="http://www.gfchina.net/2017/05/greenfield-group-representatives-visit-antigua-prime-minister/">绿野资本集团代表受邀访问安提瓜总理府 达成多项共识</a></h4>
+              <span class="date latest_posts3-post-details-det latest_posts3-post-date"><?php echo date('d/m/Y',$n['create_time']) ?></span>
+              <span class="cat latest_posts3-post-details-det atest_posts3-post-cat">in <a href="javascript:;" rel="category tag">集团动态</a></span>
+             </div><h4 class="title latest_posts3-title" itemprop="headline"><a class="latest_posts3-title-link" href="<?php echo site_url('news/article/'.$n['news_id']) ?>"><?php echo $n['title'] ?></a></h4>
              <div class="text latest_posts3-post-text">
-              应安提瓜和巴布达总理贾斯顿布朗阁下邀请，绿野资本集团董事局主席兼首席经济学家郑晓军教授率领的代表团一行于5月3...
+              <?php echo $n['content'] ?>
              </div>
              <div class="clearfix"></div></li>
            
@@ -1047,95 +1052,8 @@
         </div> 
        </div> 
 
-      
+      <?php }}?>
 
-      <div class="eluid3862cf61  no_animation     col-md-6 col-sm-6   znColumnElement" id="eluid3862cf61"> 
-        <div class="znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left "> 
-         <div class="znColumnElement-innerContent"> 
-         <!--  <div class="kl-title-block clearfix tbk--text- tbk--center text-center tbk-symbol--border tbk--colored tbk-icon-pos--after-subtitle eluid44444aa2  no_animation">
-           <h3 class="tbk__title" itemprop="headline" style="height: 35px;">新闻中心</h3>
-           <h4 class="tbk__subtitle" itemprop="alternativeHeadline">News</h4>
-           <span class="tbk__symbol "><span></span></span>
-          </div>  -->
-          <div class=" latest_posts style2 latest_posts--style3 latest_posts3 eluid52019816  latestposts3--light element-scheme--light"> 
-           <h3 class="m_title m_title_ext text-custom latest_posts3-elm-title" itemprop="headline"></h3> 
-           <ul class="posts latest_posts3-posts"> 
-            <li class="post latest_posts3-post">
-             <div class="details latest_posts3-post-details">
-              <span class="date latest_posts3-post-details-det latest_posts3-post-date">31/05/2017</span>
-              <span class="cat latest_posts3-post-details-det atest_posts3-post-cat">in <a href="http://www.gfchina.net/category/group-news/" rel="category tag">集团动态</a></span>
-             </div><h4 class="title latest_posts3-title" itemprop="headline"><a class="latest_posts3-title-link" href="http://www.gfchina.net/2017/05/greenfield-group-representatives-visit-antigua-prime-minister/">绿野资本集团代表受邀访问安提瓜总理府 达成多项共识</a></h4>
-             <div class="text latest_posts3-post-text">
-              应安提瓜和巴布达总理贾斯顿布朗阁下邀请，绿野资本集团董事局主席兼首席经济学家郑晓军教授率领的代表团一行于5月3...
-             </div>
-             <div class="clearfix"></div></li>
-           
-           </ul> 
-          </div> 
-          <!-- end // latest posts style 2 --> 
-         </div> 
-        </div> 
-       </div> 
-
-
-
-
-       <div class="eluid3862cf61  no_animation     col-md-6 col-sm-6   znColumnElement" id="eluid3862cf61"> 
-        <div class="znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left "> 
-         <div class="znColumnElement-innerContent"> 
-         <!--  <div class="kl-title-block clearfix tbk--text- tbk--center text-center tbk-symbol--border tbk--colored tbk-icon-pos--after-subtitle eluid44444aa2  no_animation">
-           <h3 class="tbk__title" itemprop="headline" style="height: 35px;">新闻中心</h3>
-           <h4 class="tbk__subtitle" itemprop="alternativeHeadline">News</h4>
-           <span class="tbk__symbol "><span></span></span>
-          </div>  -->
-          <div class=" latest_posts style2 latest_posts--style3 latest_posts3 eluid52019816  latestposts3--light element-scheme--light"> 
-           <h3 class="m_title m_title_ext text-custom latest_posts3-elm-title" itemprop="headline"></h3> 
-           <ul class="posts latest_posts3-posts"> 
-            <li class="post latest_posts3-post">
-             <div class="details latest_posts3-post-details">
-              <span class="date latest_posts3-post-details-det latest_posts3-post-date">31/05/2017</span>
-              <span class="cat latest_posts3-post-details-det atest_posts3-post-cat">in <a href="http://www.gfchina.net/category/group-news/" rel="category tag">集团动态</a></span>
-             </div><h4 class="title latest_posts3-title" itemprop="headline"><a class="latest_posts3-title-link" href="http://www.gfchina.net/2017/05/greenfield-group-representatives-visit-antigua-prime-minister/">绿野资本集团代表受邀访问安提瓜总理府 达成多项共识</a></h4>
-             <div class="text latest_posts3-post-text">
-              应安提瓜和巴布达总理贾斯顿布朗阁下邀请，绿野资本集团董事局主席兼首席经济学家郑晓军教授率领的代表团一行于5月3...
-             </div>
-             <div class="clearfix"></div></li>
-           
-           </ul> 
-          </div> 
-          <!-- end // latest posts style 2 --> 
-         </div> 
-        </div> 
-       </div> 
-
-
-       <div class="eluid3862cf61  no_animation     col-md-6 col-sm-6   znColumnElement" id="eluid3862cf61"> 
-        <div class="znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left "> 
-         <div class="znColumnElement-innerContent"> 
-          <!-- <div class="kl-title-block clearfix tbk--text- tbk--center text-center tbk-symbol--border tbk--colored tbk-icon-pos--after-subtitle eluid44444aa2  no_animation">
-           <h3 class="tbk__title" itemprop="headline" style="height: 35px;">新闻中心</h3>
-           <h4 class="tbk__subtitle" itemprop="alternativeHeadline">News</h4>
-           <span class="tbk__symbol "><span></span></span>
-          </div>  -->
-          <div class=" latest_posts style2 latest_posts--style3 latest_posts3 eluid52019816  latestposts3--light element-scheme--light"> 
-           <h3 class="m_title m_title_ext text-custom latest_posts3-elm-title" itemprop="headline"></h3> 
-           <ul class="posts latest_posts3-posts"> 
-            <li class="post latest_posts3-post">
-             <div class="details latest_posts3-post-details">
-              <span class="date latest_posts3-post-details-det latest_posts3-post-date">31/05/2017</span>
-              <span class="cat latest_posts3-post-details-det atest_posts3-post-cat">in <a href="http://www.gfchina.net/category/group-news/" rel="category tag">集团动态</a></span>
-             </div><h4 class="title latest_posts3-title" itemprop="headline"><a class="latest_posts3-title-link" href="http://www.gfchina.net/2017/05/greenfield-group-representatives-visit-antigua-prime-minister/">绿野资本集团代表受邀访问安提瓜总理府 达成多项共识</a></h4>
-             <div class="text latest_posts3-post-text">
-              应安提瓜和巴布达总理贾斯顿布朗阁下邀请，绿野资本集团董事局主席兼首席经济学家郑晓军教授率领的代表团一行于5月3...
-             </div>
-             <div class="clearfix"></div></li>
-            
-           </ul> 
-          </div> 
-          <!-- end // latest posts style 2 --> 
-         </div> 
-        </div> 
-       </div> 
       </div> 
      </div> 
     </section> 
