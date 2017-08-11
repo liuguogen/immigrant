@@ -47,18 +47,9 @@
            <div class="ib2-inner infobox2-inner"> 
             <div class="ib2-content">
              <div class="ib2-content--text infobox2-text">
-              <p><strong>绿野资本集团大中华区</strong></p>
-<p>免费电话：400-8520-860<br />
-咨询邮件：info@gfchina.net</p>
-<p><strong>香港办公室</strong><br />
-地址：香港中环金融街8 号国际金融中心二期19楼<br />
-电话：+852 2251 8283</p>
-<p><strong>上海办公室</strong><br />
-地址：上海市青浦区涞港路181号国家会展中心B座304室<br />
-电话：+86 21 5160 0315</p>
-<p><strong>北京办公室</strong><br />
-地址：北京市东城区建国门内大街8号中粮广场B座307/08室<br />
-电话：+86 10 5701 7749</p>
+              <?php if($this->config->item('contactus_text','home')!=''){
+                echo $this->config->item('contactus_text','home');
+                }  ?>
              </div>
             </div> 
            </div> 

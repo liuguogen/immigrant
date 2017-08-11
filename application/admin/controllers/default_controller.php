@@ -102,7 +102,7 @@ class Default_controller extends CI_Controller {
 				$this->message('保存失败',site_url('Default_controller/setting'));
 			}
 		}else {
-			$rRow=$this->admin_model->getRow('*','setting');
+			$rRow=$this->Admin_model->getRow('*','setting');
 			$rRow['core_business']=$rRow['core_business'] ? unserialize($rRow['core_business']) :array();//序列化核心业务
 			$rRow['contactus']=$rRow['contactus'] ? unserialize($rRow['contactus']) :array();//序列化联系我们
 			$rRow['thumb']=$rRow['thumb']  ? explode(',',$rRow['thumb']) :array();

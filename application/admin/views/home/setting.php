@@ -175,7 +175,7 @@
         </tr>
 
         <tr>
-            <th>联系我们 <span style="color: red;">*</span></th>
+            <th>底部联系我们 <span style="color: red;">*</span></th>
             <td>
               <span><input type="button" value="添加" id="add_contactus"  /></span></br/></br/>
 
@@ -190,6 +190,39 @@
               </span>
               <?php }}}?>
               </div>
+            </td>
+        </tr>
+
+
+          <tr>
+            <th>集团概况介绍 <span style="color: red;">*</span></th>
+            <td>
+                <textarea class="form-control" name="overview" cols="60" rows="5"><?php if(isset($data['overview']) && $data['overview']){ echo $data['overview'];}else{echo '';} ?></textarea>
+                <script type="text/javascript">CKEDITOR.replace('overview',{ toolbarCanCollapse: true,  toolbar: [['Source','FontSize','JustifyCenter','Bold', 'Italic', '-', 'NumberedList', 'BulletedList', '-', 'Link', 'Unlink','Image','Table']],height: '250px', width: '900px',filebrowserImageUploadUrl:'<?php echo site_url('images/uploads') ?>' })</script>
+            </td>
+        </tr>
+
+        <tr>
+            <th>核心战略介绍 <span style="color: red;">*</span></th>
+            <td>
+                <textarea class="form-control" name="corestrategy" cols="60" rows="5"><?php if(isset($data['corestrategy']) && $data['corestrategy']){ echo $data['corestrategy'];}else{echo '';} ?></textarea>
+                <script type="text/javascript">CKEDITOR.replace('corestrategy',{ toolbarCanCollapse: true,  toolbar: [['Source','FontSize','JustifyCenter','Bold', 'Italic', '-', 'NumberedList', 'BulletedList', '-', 'Link', 'Unlink','Image','Table']],height: '250px', width: '900px',filebrowserImageUploadUrl:'<?php echo site_url('images/uploads') ?>' })</script>
+            </td>
+        </tr>
+          
+        <tr>
+            <th>核心业务介绍 <span style="color: red;">*</span></th>
+            <td>
+                <textarea class="form-control" name="business" cols="60" rows="5"><?php if(isset($data['business']) && $data['business']){ echo $data['business'];}else{echo '';} ?></textarea>
+                <script type="text/javascript">CKEDITOR.replace('business',{ toolbarCanCollapse: true,  toolbar: [['Source','FontSize','JustifyCenter','Bold', 'Italic', '-', 'NumberedList', 'BulletedList', '-', 'Link', 'Unlink','Image','Table']],height: '250px', width: '900px',filebrowserImageUploadUrl:'<?php echo site_url('images/uploads') ?>' })</script>
+            </td>
+        </tr>
+
+        <tr>
+            <th>联系我们介绍 <span style="color: red;">*</span></th>
+            <td>
+                <textarea class="form-control" name="contactus_text" cols="60" rows="5"><?php if(isset($data['contactus_text']) && $data['contactus_text']){ echo $data['contactus_text'];}else{echo '';} ?></textarea>
+                <script type="text/javascript">CKEDITOR.replace('contactus_text',{ toolbarCanCollapse: true,  toolbar: [['Source','FontSize','JustifyCenter','Bold', 'Italic', '-', 'NumberedList', 'BulletedList', '-', 'Link', 'Unlink','Image','Table']],height: '250px', width: '900px',filebrowserImageUploadUrl:'<?php echo site_url('images/uploads') ?>' })</script>
             </td>
         </tr>
             <th></th>
