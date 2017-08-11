@@ -45,6 +45,12 @@ class Index_controller extends CI_Controller {
 		$this->load->view('home/overview');
 	}
 	/**
+	**核心战略
+	*/
+	public function coreStrategy() {
+		$this->load->view('home/corestrategy');
+	}
+	/**
 	**核心业务
 	**/
 	public function business() {
