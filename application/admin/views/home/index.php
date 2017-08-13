@@ -48,7 +48,7 @@
                         <li class="divider"></li>
 
                         <li>
-                            <a href="#">
+                            <a href="<?php echo site_url('Login_controller/logout') ?>">
                                 <i class="icon-off"></i>
                                 退出
                             </a>
@@ -116,7 +116,7 @@
                             <ul class="submenu">
                                 
                                     <li class="b-nav-li">
-                                        <a href="#" target="right_content">
+                                        <a href="<?php echo site_url('Default_controller/user') ?>" target="right_content">
                                             <i class="icon-double-angle-right"></i>
                                             用户管理
                                         </a>

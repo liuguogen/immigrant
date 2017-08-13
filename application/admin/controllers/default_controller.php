@@ -208,6 +208,135 @@ class Default_controller extends CI_Controller {
 			$this->message('删除失败',site_url('Default_controller/newsList'));
 		}
 	}
+	/**
+	**用户列表
+	**/
+
+	public function user() {
+
+		if(!empty($_POST)){
+			$keyword=trim($this->input->post('username'));
+			$data['username']=$keyword;
+			$total=$this->Admin_model->getCount('admin',array('username|like'=>$keyword));
+			$filter=array('username|like'=>$keyword);
+		}else{
+			$keyword='';
+			$total=$this->Admin_model->getCount('admin');
+			$data['username']=$keyword;
+			$filter=array();
+		}
+		$this->load->library('pagination');
+		$limit = $this->limit;
+		$config['base_url'] = site_url('Default_controller/user').'?page=p';
+		$config['total_rows'] = $total;
+		$config['per_page'] = $limit;
+		$config['full_tag_open'] = '<div class="pagination">'; // 分页开始样式
+		$config['full_tag_close'] = '</div>'; // 分页结束样式
+		$config['first_link'] = '首页'; // 第一页显示
+		$config['last_link'] = '末页'; // 最后一页显示
+		$config['next_link'] = '下一页 '; // 下一页显示
+		$config['prev_link'] = '上一页'; // 上一页显示
+		$config['cur_tag_open'] = ' <a class="current">'; // 当前页开始样式
+		$config['cur_tag_close'] = '</a>'; // 当前页结束样式
+		$config['num_links'] = 2;// 当前连接前后显示页码个数
+		$config['page_query_string']=TRUE;
+		//$config['uri_segment'] = 4;
+		$config['use_page_numbers'] = TRUE;
+		$config['page_query_string']=TRUE;
+		$config['use_page_numbers'] = TRUE;
+		$per_page=$this->input->get('per_page');
+		$start=$per_page?($per_page-1)*$limit:0; 
+		
+		$data['row']=$this->Admin_model->getList('*','admin',$filter,$start,$limit);
+		$this->pagination->initialize($config);
+		$data['page_links']=$this->pagination->create_links();
+		$this->load->view('home/user',$data);
+	}
+	/**
+	**添加用户
+	**/
+	public function addUser() {
+
+		if(IS_POST)
+		{
+			$post=$this->input->post();
+			$post['password']=md5($post['password']);
+			$post['created_at']=time();
+			$post['status']=1;//用户状态 正常
+			
+        	
+        	$flag=$this->Admin_model->insert('admin',$post);
+        	if($flag)
+        	{
+        		$this->message('保存成功',site_url('Default_controller/user'));
+        	}
+        	else
+        	{
+        		$this->message('保存失败',site_url('Default_controller/addUser'));
+        	}
+		}
+		else
+		{
+			$this->load->view('home/adduser');
+		}
+		
+	}
+	/**
+	**修改密码
+	**/
+	public function editPass() {
+		if(IS_POST)
+		{
+
+			$post=$this->input->post();
+			if($post['confrim_pass']!=$post['password']) {
+				$this->message('两次密码不一致',site_url('Default_controller/editPass/?admin_id='.$post['admin_id']));
+			}
+			if($post['admin_id']) {
+				$admin_id=$post['admin_id'];
+				unset($post['admin_id']);
+			}
+			unset($post['confrim_pass']);
+			$post['password']=md5($post['password']);
+			
+			$flag=$this->Admin_model->update('admin',$post,array('admin_id'=>$admin_id));
+			if($flag)
+        	{
+        		$this->message('修改成功',site_url('Default_controller/user'));
+        	}
+        	else
+        	{
+        		$this->message('修改失败',site_url('Default_controller/editPass/?admin_id='.$admin_id));
+        	}
+		}
+		else
+		{
+			$params['admin_id']=$this->input->get('admin_id');
+			
+			$data['data']=$this->Admin_model->getRow('*','admin',array('admin_id'=>$params['admin_id']));
+		
+			$this->load->view('home/editpass',$data);
+		}
+	}
+
+
+	/**
+	**删除用户
+	**/
+	public function delUser()
+	{
+		$params['admin_id']=$this->input->get('admin_id');
+		
+		$flag=$this->Admin_model->delete('admin',array('admin_id'=>$params['admin_id']));
+		if($flag)
+        {
+        		$this->message('删除成功',site_url('Default_controller/user'));
+        }
+        else
+        {
+        		$this->message('删除失败',site_url('Default_controller/user'));
+        }
+	}
 	public function welcome() {
 
 		$this->load->view('home/welcome');
