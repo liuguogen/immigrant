@@ -21,12 +21,12 @@
   <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/min.css" type="text/css" /> 
 
   <script type="text/javascript" src="<?php echo base_url() ?>assets/js/js.js"></script>
-  <meta name="theme-color" content="#a69871" /> 
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
+  <meta name="" content="" /> 
+  <meta name="" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
   <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style> 
-  <meta name="generator" content="Powered by Slider Revolution 5.4.1 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." /> 
+  <meta name="generator" content="" /> 
 
-  <!-- Generated inline styles -->
+  
   <style type="text/css" id="zn-inline-styles">
 .eluid17591ff5.th-spacer {
   height: 135px;
@@ -785,7 +785,7 @@
                 </div> </a> 
               </div> 
              </div>
-             <!-- /.grid-ibx__item --> 
+              
              <div class="grid-ibx__item  grid-ibx__item--type-img text-left grid-ibx__item-1"> 
               <div class="grid-ibx__item-inner"> 
                <a href="#" class="grid-ibx__link clearfix" target="_self" itemprop="url"> 
@@ -801,7 +801,7 @@
                 </div> </a> 
               </div> 
              </div>
-             <!-- /.grid-ibx__item --> 
+             
              <div class="grid-ibx__item  grid-ibx__item--type-img text-left grid-ibx__item-2"> 
               <div class="grid-ibx__item-inner"> 
                <a href="#" class="grid-ibx__link clearfix" target="_self" itemprop="url"> 
@@ -817,12 +817,12 @@
                 </div> </a> 
               </div> 
              </div>
-             <!-- /.grid-ibx__item --> 
+             
             </div>
-            <!-- /.grid-ibx__row --> 
+            
            </div> 
           </div>
-          <!-- /.grid-ibx --> 
+          
          </div> 
         </div> 
        </div> 
@@ -961,7 +961,7 @@
             </div> 
            </div> 
           </div>
-          <!-- /.zn_custom_container --> 
+          
          </div> 
         </div> 
        </div> 
@@ -997,12 +997,12 @@
               
               
              </div>
-             <!-- /.ts-pt-partners__carousel --> 
+             
             </div> 
            </div>
-           <!-- /.ts-pt-partners --> 
+           
           </div>
-          <!-- /.testimonials-partners --> 
+          
          </div> 
         </div> 
        </div> 
@@ -1027,11 +1027,7 @@
        <div class="eluid3862cf61  no_animation     col-md-6 col-sm-6   znColumnElement" id="eluid3862cf61"> 
         <div class="znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left "> 
          <div class="znColumnElement-innerContent"> 
-         <!--  <div class="kl-title-block clearfix tbk--text- tbk--center text-center tbk-symbol--border tbk--colored tbk-icon-pos--after-subtitle eluid44444aa2  no_animation">
-           <h3 class="tbk__title" itemprop="headline" style="height: 35px;">新闻中心</h3>
-           <h4 class="tbk__subtitle" itemprop="alternativeHeadline">News</h4>
-           <span class="tbk__symbol "><span></span></span>
-          </div>  -->
+         
           <div class=" latest_posts style2 latest_posts--style3 latest_posts3 eluid52019816  latestposts3--light element-scheme--light"> 
            <h3 class="m_title m_title_ext text-custom latest_posts3-elm-title" itemprop="headline"></h3> 
            <ul class="posts latest_posts3-posts"> 
@@ -1047,7 +1043,7 @@
            
            </ul> 
           </div> 
-          <!-- end // latest posts style 2 --> 
+          
          </div> 
         </div> 
        </div> 
@@ -1059,18 +1055,9 @@
     </section> 
    </div>
    <?php $this->load->view('public/footer') ?>
-  <!-- end page_wrapper --> 
+  
   <a href="#" id="totop" class="u-trans-all-2s js-scroll-event" data-forch="300" data-visibleclass="on--totop">TOP</a> 
-  <script type="text/javascript">
-			function revslider_showDoubleJqueryError(sliderID) {
-				var errorMessage = "Revolution Slider Error: You have some jquery.js library include that comes after the revolution files js include.";
-				errorMessage += "<br> This includes make eliminates the revolution slider libraries, and make it not work.";
-				errorMessage += "<br><br> To fix it you can:<br>&nbsp;&nbsp;&nbsp; 1. In the Slider Settings -> Troubleshooting set option:  <strong><b>Put JS Includes To Body</b></strong> option to true.";
-				errorMessage += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jquery.js include and remove it.";
-				errorMessage = "<span style='font-size:16px;color:#BC0C06;'>" + errorMessage + "</span>";
-					jQuery(sliderID).show().html(errorMessage);
-			}
-		</script> 
+  
   <?php $this->load->view('public/footerJs') ?>
  </body>
 </html>
