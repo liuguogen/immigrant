@@ -52,7 +52,7 @@
     &gt;
     <a href="<?php echo site_url('default_controller/user') ?>">用户列表</a>
     &gt;
-    新增学校
+    添加用户
 </div>
 
 
