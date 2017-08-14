@@ -92,4 +92,35 @@ class Index_controller extends CI_Controller {
 		}
 		$this->load->view('home/article',$data);
 	}
+	public function search() {
+
+		if(IS_POST){
+			$s=$this->input->post('s');
+			$news_data=$this->Home_model->getList('news_id,title,content,thumb,create_time','news',array('title|like'=>$s),0,-1,'create_time DESC');
+			if($news_data) {
+				foreach ($news_data as $key => &$value) {
+					$value['content']=mb_substr($value['content'],0,50,'utf-8');
+				}
+
+			   $data['news_data']=$news_data;
+			}
+			else{
+				$this->message('暂无数据',site_url());
+			}
+			$data['s']=$s;
+			$this->load->view('home/search',$data);
+		}else{
+			//获取全部新闻
+			$news_data=$this->Home_model->getList('news_id,title,content,thumb,create_time','news',array(),0,-1,'create_time DESC');
+			if($news_data) {
+				foreach ($news_data as $key => &$value) {
+					$value['content']=mb_substr($value['content'],0,50,'utf-8');
+				}
+
+			   $data['news_data']=$news_data;
+			}
+			$this->load->view('home/search',$data);
+		}
+		
+	}
 }

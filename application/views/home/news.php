@@ -131,7 +131,7 @@
       <aside class=" col-sm-4 col-md-3 " role="complementary" itemscope="itemscope">
        <div class="zn_sidebar sidebar kl-sidebar--light element-scheme--light">
         <div id="search-2" class="widget zn-sidebar-widget widget_search"> 
-         <form id="searchform" class="gensearch__form" action="http://www.gfchina.net/" method="get"> 
+         <form id="searchform" class="gensearch__form" action="<?php echo site_url('search') ?>" method="post"> 
           <input id="s" name="s" value="" class="inputbox gensearch__input" type="text" placeholder="SEARCH ..." /> 
           <button type="submit" id="searchsubmit" value="go" class="gensearch__submit glyphicon glyphicon-search"></button> 
          </form>
@@ -143,7 +143,7 @@
            <?php if($news_data){
           foreach($news_data as $n){
            ?>
-           <li class="lp-post latest_posts-wgt-post"> <h4 class="title latest_posts-wgt-title" itemprop="headline"> <a href="<?php echo site_url('news/article/'.$n['news_id']) ?>" class="latest_posts-wgt-title-link" title="绿野资本集团代表受邀访问安提瓜总理府 达成多项共识"> <?php echo $n['title'] ?> </a></h4> 
+           <li class="lp-post latest_posts-wgt-post"> <h4 class="title latest_posts-wgt-title" itemprop="headline"> <a href="<?php echo site_url('news/article/'.$n['news_id']) ?>" class="latest_posts-wgt-title-link" title="<?php echo $n['title'] ?>"> <?php echo $n['title'] ?> </a></h4> 
             <div class="text latest_posts-wgt-text" style="line-height: 20px;font-size: 13px;">
              <?php  echo mb_substr($n['content'],0,50,'utf-8').'...' ?>
             </div> </li> 
