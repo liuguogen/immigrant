@@ -36,7 +36,7 @@ margin:0 auto;
 <div class="bjy-admin-nav">
     <i class="fa fa-home"></i> 首页
     &gt;
-    新闻类型列表
+    新闻列表
 </div>
 <form action="<?php echo site_url('Default_controller/newsList') ?>" method="post">
 
