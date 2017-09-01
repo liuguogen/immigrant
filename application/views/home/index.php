@@ -898,7 +898,7 @@
         <div class="znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left "> 
          <div class="znColumnElement-innerContent"> 
           <div class="kl-title-block clearfix tbk--text- tbk--left text-left tbk-symbol--border2  tbk-icon-pos--after-subtitle eluid3f9c1fff  no_animation">
-           <h3 class="tbk__title" itemprop="headline" style="height: 60px;"><span class="tbk__border-helper">核心业务</span></h3>
+           <h3 class="tbk__title" itemprop="headline" style="height: 60px;line-height: 60px;"><span class="tbk__border-helper">核心业务</span></h3>
            <h4 class="tbk__subtitle" itemprop="alternativeHeadline">Core Business</h4>
            <span class="tbk__symbol "><span></span></span>
           </div>
@@ -1014,7 +1014,7 @@
      <div class="zn_section_size full_width zn-section-height--auto zn-section-content_algn--top "> 
 
         <div class="kl-title-block clearfix tbk--text- tbk--center text-center tbk-symbol--border tbk--colored tbk-icon-pos--after-subtitle eluid44444aa2  no_animation">
-             <h3 class="tbk__title" itemprop="headline" style="height: 35px;">新闻中心</h3>
+             <h3 class="tbk__title" itemprop="headline" style="height: 40px;line-height: 40px;">新闻中心</h3>
              <h4 class="tbk__subtitle" itemprop="alternativeHeadline">News</h4>
              <span class="tbk__symbol "><span></span></span>
         </div> 
