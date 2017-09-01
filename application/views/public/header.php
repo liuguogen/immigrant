@@ -28,7 +28,8 @@
            <!-- end responsive menu --> 
            <div id="main-menu" class="main-nav mainnav--sidepanel mainnav--active-uline mainnav--pointer-dash nav-mm--light zn_mega_wrapper ">
             <ul id="menu-%e7%bb%bf%e9%87%8e%e8%b5%84%e6%9c%ac%e7%9b%ae%e5%bd%95" class="main-menu main-menu-nav zn_mega_menu ">
-             <li id="menu-item-145" class="main-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-146  main-menu-item-top  menu-item-even menu-item-depth-0"><a href="<?php echo site_url('overview') ?>" class=" main-menu-link main-menu-link-top"><span>集团概况</span></a></li> 
+              <li id="menu-item-144" class="main-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-146  main-menu-item-top  menu-item-even menu-item-depth-0"><a href="<?php echo site_url() ?>" class=" main-menu-link main-menu-link-top"><span>首页</span></a></li> 
+              <li id="menu-item-145" class="main-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-146  main-menu-item-top  menu-item-even menu-item-depth-0"><a href="<?php echo site_url('overview') ?>" class=" main-menu-link main-menu-link-top"><span>集团概况</span></a></li> 
               <!-- <ul class="sub-menu clearfix"> 
                <li id="menu-item-232" class="main-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-232  main-menu-item-sub  menu-item-odd menu-item-depth-1"><a href="http://www.gfchina.net/survey/" class=" main-menu-link main-menu-link-sub"><span>集团概况</span></a></li> 
                <li id="menu-item-233" class="main-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-233  main-menu-item-sub  menu-item-odd menu-item-depth-1"><a href="http://www.gfchina.net/advantage/" class=" main-menu-link main-menu-link-sub"><span>集团优势</span></a></li> 
