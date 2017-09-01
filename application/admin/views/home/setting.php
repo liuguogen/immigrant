@@ -195,7 +195,7 @@
 
 
           <tr>
-            <th>集团概况介绍 <span style="color: red;">*</span></th>
+            <th>关于我们介绍 <span style="color: red;">*</span></th>
             <td>
                 <textarea class="form-control" name="overview" cols="60" rows="5"><?php if(isset($data['overview']) && $data['overview']){ echo $data['overview'];}else{echo '';} ?></textarea>
                 <script type="text/javascript">CKEDITOR.replace('overview',{ toolbarCanCollapse: true,  toolbar: [['Source','FontSize','JustifyCenter','Bold', 'Italic', '-', 'NumberedList', 'BulletedList', '-', 'Link', 'Unlink','Image','Table']],height: '250px', width: '900px',filebrowserImageUploadUrl:'<?php echo site_url('images/uploads') ?>' })</script>
@@ -203,7 +203,7 @@
         </tr>
 
         <tr>
-            <th>核心战略介绍 <span style="color: red;">*</span></th>
+            <th>项目介绍介绍 <span style="color: red;">*</span></th>
             <td>
                 <textarea class="form-control" name="corestrategy" cols="60" rows="5"><?php if(isset($data['corestrategy']) && $data['corestrategy']){ echo $data['corestrategy'];}else{echo '';} ?></textarea>
                 <script type="text/javascript">CKEDITOR.replace('corestrategy',{ toolbarCanCollapse: true,  toolbar: [['Source','FontSize','JustifyCenter','Bold', 'Italic', '-', 'NumberedList', 'BulletedList', '-', 'Link', 'Unlink','Image','Table']],height: '250px', width: '900px',filebrowserImageUploadUrl:'<?php echo site_url('images/uploads') ?>' })</script>
@@ -211,7 +211,7 @@
         </tr>
           
         <tr>
-            <th>核心业务介绍 <span style="color: red;">*</span></th>
+            <th>项目代理介绍 <span style="color: red;">*</span></th>
             <td>
                 <textarea class="form-control" name="business" cols="60" rows="5"><?php if(isset($data['business']) && $data['business']){ echo $data['business'];}else{echo '';} ?></textarea>
                 <script type="text/javascript">CKEDITOR.replace('business',{ toolbarCanCollapse: true,  toolbar: [['Source','FontSize','JustifyCenter','Bold', 'Italic', '-', 'NumberedList', 'BulletedList', '-', 'Link', 'Unlink','Image','Table']],height: '250px', width: '900px',filebrowserImageUploadUrl:'<?php echo site_url('images/uploads') ?>' })</script>
