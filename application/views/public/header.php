@@ -2,7 +2,7 @@
   <!-- end login register stuff --> 
   <div id="fb-root"></div> 
   <div id="page_wrapper"> 
-   <header id="header" class="site-header  style14 cta_button  header--follow    sticky-resize headerstyle--image_color site-header--absolute nav-th--light sheader-sh--dark" data-original-sticky-textscheme="sh--dark" role="banner" itemscope="itemscope"> 
+   <header id="header" style="background: :#fff;" class="site-header  style14 cta_button  header--follow    sticky-resize headerstyle--image_color site-header--absolute nav-th--light sheader-sh--dark" data-original-sticky-textscheme="sh--dark" role="banner" itemscope="itemscope"> 
     <div class="site-header-wrapper sticky-top-area"> 
      <div class="site-header-top-wrapper topbar-style--default  sh--dark"> 
       <div class="siteheader-container container"> 
