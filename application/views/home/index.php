@@ -848,7 +848,7 @@
               <div class="znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left "> 
                <div class="znColumnElement-innerContent"> 
                 <div class="kl-title-block clearfix tbk--text- tbk--center text-center tbk-symbol--line tbk--colored tbk-icon-pos--after-title eluid2fa81003  no_animation znParallax-object" data-zn-parallax-obj="{";scene";:{";triggerHook";:";onEnter";,";triggerElement";:";.eluid2fa81003";,";duration";:";force_full";},";tween";:{";speed";:0.8,";reverse";:";false";,";css";:{";y";:{";from";:-50,";to";:50}},";easing";:";Power1.easeOut";}}">
-                 <h2 class="tbk__title" itemprop="headline">关于集团</h2>
+                 <h2 class="tbk__title" itemprop="headline">关于我们</h2>
                  <span class="tbk__symbol "><span></span></span>
                  <h4 class="tbk__subtitle" itemprop="alternativeHeadline" style="height: 60px;">ABOUT US</h4>
                 </div> 
