@@ -77,8 +77,14 @@
      <div class="clear"></div>
     </div>
     <div class="cwin_tab_page" id="banner_cwin_tab_page1">
-     <a href="javascript:;">1</a>
-     <a href="javascript:;">2</a>
+    <?php if($this->config->item('thumb','home')!=''){
+
+         $thumb=explode(',',$this->config->item('thumb','home'));
+         foreach($thumb as $k => $v){
+      ?>
+     <a href="javascript:;"><?php echo $k++; ?></a>
+    
+     <?php }}?>
     </div>
     <div class="cwin_triggers" id="banner_cwin_triggers1"> 
      <a class="prev" id="banner_cwin_prev1" href="javascript:void(0);"><b class="corner"></b><span>&lt;</span><b class="corner"></b></a> 
