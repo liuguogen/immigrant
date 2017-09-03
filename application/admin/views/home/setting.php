@@ -98,7 +98,7 @@
         </tr>
            
         <tr>
-            <th>底部轮播图 <span style="color: red;">*</span></th>
+            <th>底部LOGO <span style="color: red;">*</span></th>
             
                <td>
                    <div id="bottom_logo" ></div>
