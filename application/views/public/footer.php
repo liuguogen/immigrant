@@ -11,7 +11,7 @@
           <div class="box image-boxes imgbox-simple eluid6a9c2e78  no_animation znParallax-object" data-zn-parallax-obj="{";scene";:{";triggerHook";:";onEnter";,";triggerElement";:";.eluid6a9c2e78";,";duration";:";force_full";},";tween";:{";speed";:0.8,";reverse";:";false";,";css";:{";y";:{";from";:-25,";to";:25}},";easing";:";Power1.easeOut";}}">
            <div class="image-boxes-holder imgboxes-wrapper u-mb-0  ">
             <div class="image-boxes-img-wrapper img-align-left">
-             <img class="image-boxes-img img-responsive " src="<?php echo base_url() ?>/assets/images/gfc-logo.png" alt="" title="gfc-logo" />
+             <img class="image-boxes-img img-responsive " src="<?php echo base_url() ?><?php echo $this->config->item('bottom_logo','home') ?>" alt="" title="gfc-logo" />
             </div>
            </div>
           </div> 
@@ -56,7 +56,7 @@
     </section> 
     <section class="zn_section eluid01fc6d44   no_animation   section-sidemargins    zn_section--relative section--no " id="eluid4e5ab6e4"> 
      <div class="kl-bg-source ">
-      <div class="kl-bg-source__bgimage" style="background-image:url(<?php echo base_url() ?><?php echo $this->config->item('bottom_logo','home') ?>);background-repeat:no-repeat;background-attachment:scroll;background-position:center center;background-size:cover"></div>
+      <div class="kl-bg-source__bgimage" style="background-image:url(<?php echo base_url() ?>assets/images/footerbg.png);background-repeat:no-repeat;background-attachment:scroll;background-position:center center;background-size:cover"></div>
       <div class="kl-bg-source__overlay " style="background-color:rgba(99,99,99,0.3)"></div>
      </div> 
      <div class="zn_section_size full_width zn-section-height--auto zn-section-content_algn--top "> 
