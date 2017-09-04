@@ -40,7 +40,7 @@
          <div class="znColumnElement-innerContent"> 
           
           <div class="kl-title-block clearfix tbk--text- tbk--left text-left tbk-symbol--border tbk--colored tbk-icon-pos--after-title eluid47cbd8e0  no_animation">
-           <h3 class="tbk__title" itemprop="headline">核心业务</h3>
+           <h3 class="tbk__title" itemprop="headline">项目代理</h3>
            <span class="tbk__symbol "><span></span></span>
           </div> 
           <div class="eluid0ec3e970  flipInY wow infobox2--light element-scheme--light ib2-style3 ib2-custom infobox2-container" data-wow-delay="700ms"> 
