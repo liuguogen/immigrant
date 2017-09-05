@@ -96,7 +96,20 @@
             <?php  }}?>
                </td>
         </tr>
-           
+         <tr>
+            <th>合作伙伴图片 <span style="color: red;">*</span></th>
+            
+               <td>
+                   <div id="partner_img" ></div>
+                   <div id="add_partner_img"></div>
+                <?php if(isset($data['partner_img']) && $data['partner_img']) {
+                   foreach($data['partner_img'] as $v){
+                 ?>
+
+                 <img src="<?php echo base_url().$v ?>" height="120" />
+            <?php  }}?>
+               </td>
+        </tr>  
         <tr>
             <th>底部LOGO <span style="color: red;">*</span></th>
             
@@ -255,6 +268,17 @@ $('#thumb').diyUpload({
     url:"<?php echo site_url('images/upload') ?>",
     success:function( data ) {
         $('#add_thumb').append('<input type="hidden" name="thumb[]" value='+data._raw+' />');
+        
+    },
+    error:function( err ) {
+        console.info( err );    
+    }
+});
+//合作伙伴
+$('#partner_img').diyUpload({
+    url:"<?php echo site_url('images/upload') ?>",
+    success:function( data ) {
+        $('#add_partner_img').append('<input type="hidden" name="partner_img[]" value='+data._raw+' />');
         
     },
     error:function( err ) {

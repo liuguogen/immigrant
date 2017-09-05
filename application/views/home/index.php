@@ -976,24 +976,22 @@
          <div class="znColumnElement-innerContent"> 
           <div class="testimonials-partners eluid49d4900b  no_animation testimonials-partners--light element-scheme--light"> 
            <div class="ts-pt-partners ts-pt-partners--y-title clearfix"> 
-            <div class="ts-pt-partners__title" style="color: #000">
+            <div class="ts-pt-partners__title" style="color: #000;">
              合作伙伴
             </div> 
             <div class="ts-pt-partners__carousel-wrapper"> 
              <div class="ts-pt-partners__carousel"> 
+
+             <?php if($this->config->item('partner_img','home')!=''){
+
+         $partner_img=explode(',',$this->config->item('partner_img','home'));
+         foreach($partner_img as $v){
+      ?>
               <div class="ts-pt-partners__carousel-item"> 
-               <img class="ts-pt-partners__img img-responsive" src="<?php echo base_url() ?>assets/images/WechatIMG391.jpeg" width="402" height="100" alt="" title="jlbzmq" /> 
+               <img class="ts-pt-partners__img img-responsive" src="<?php echo base_url().$v ?>"  alt="" title="" /> 
               </div> 
-              <div class="ts-pt-partners__carousel-item"> 
-               <img class="ts-pt-partners__img img-responsive" src="<?php echo base_url() ?>assets/images/WechatIMG392.jpeg" width="273" height="100" alt="" title="amazon_logo-g" /> 
-              </div> 
-              <div class="ts-pt-partners__carousel-item"> 
-               <img class="ts-pt-partners__img img-responsive" src="<?php echo base_url() ?>assets/images/WechatIMG393.jpeg" width="276" height="100" alt="" title="VIRGINAMERICALOGO" /> 
-              </div> 
-              <div class="ts-pt-partners__carousel-item"> 
-               <img class="ts-pt-partners__img img-responsive" src="<?php echo base_url() ?>assets/images/WechatIMG394.jpeg" width="276" height="100" alt="" title="VIRGINAMERICALOGO" /> 
-              </div> 
-             
+               
+             <?php }}?>
               
               
              </div>
