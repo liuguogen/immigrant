@@ -47,9 +47,17 @@
            <div class="ib2-inner infobox2-inner"> 
             <div class="ib2-content">
              <div class="ib2-content--text infobox2-text">
-              <?php if($this->config->item('business','home')!=''){
-                echo $this->config->item('business','home');
-                }  ?>
+              <p>你的名字<font color="red">(*)</font>:</p>
+              <p><input type="text" name="" style="width: 100%;height: 40px;"></p>
+              <p>你的邮箱:</p>
+              <p><input type="text" name="" style="width: 100%;height: 40px;"></p>
+              <p>你的电话<font color="red">(*)</font>:</p>
+              <p><input type="text" name="" style="width: 100%;height: 40px;"></p>
+              <p>你的网站:</p>
+              <p><input type="text" name="" style="width: 100%;height: 40px;"></p>
+              <p>你的地址:</p>
+              <p><input type="text" name="" style="width: 100%;height: 40px;"></p>
+              <p><input type="button" value="提交" style="margin-top: 10px;"></p>
              </div>
             </div> 
            </div> 
