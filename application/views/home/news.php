@@ -100,7 +100,7 @@
           </div> 
           <div class="kl-blog-item-body clearfix"> 
            <div class="kl-blog-item-content kl-blog-fixedimg clearfix">
-             <?php echo $n['content'] ?>
+             <?php  echo mb_substr($n['content'],0,50,'utf-8').'...' ?>
             <div class="kl-blog-item-more"> 
              <a class="kl-blog-item-more-btn" href="<?php echo site_url('news/article/'.$n['news_id']) ?>" title="Read more"> 
               <svg width="59px" height="57px" viewbox="0 0 59 57"> 
