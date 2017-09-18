@@ -66,7 +66,7 @@
          <div class="znColumnElement-innerContent"> 
           <div class="zn_text_box eluid29bcb6e7  no_animation zn_text_box-light element-scheme--light">
            <div style="color: #a69871; font-size: 16px;">
-            &copy;2007 – 2017 – All Rights Reserved.
+            <?php echo $this->config->item('copy_info','home') ?>
            </div> 
           </div> 
          </div> 
